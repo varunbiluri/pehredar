@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pehredar</string>
+    <string name="enable_button">Enable call screening</string>
+    <string name="role_active">Pehredar is your call screening app.</string>
+    <string name="role_inactive">Call screening is not enabled yet.</string>
+    <string name="role_unavailable">This device does not support call screening apps.</string>
+</resources>

@@ -1,0 +1,24 @@
+[project]
+name = "pehredar"
+version = "0.1.0"
+description = "On-device AI call screening for Android, starting with Indian languages"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faster-whisper>=1.2.1",
+    "huggingface-hub>=1.27.0",
+    "llama-cpp-python>=0.3.34",
+    "piper-tts>=1.6.1",
+]
+
+[dependency-groups]
+finetune = [
+    "accelerate>=1.14.0",
+    "gguf>=0.19.0",
+    "peft>=0.20.0",
+    "protobuf>=7.35.1",
+    "sentencepiece>=0.2.2",
+    "torch>=2.13.0",
+    "transformers>=5.15.0",
+    "trl>=1.10.0",
+]

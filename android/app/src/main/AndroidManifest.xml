@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Pehredar">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+          Requires the CALL_SCREENING role (requested at runtime via
+          RoleManager in MainActivity) before the system will route calls
+          here. onScreenCall() currently applies a stub allow all policy.
+          The STT to LLM to TTS pipeline validated in prototype/pipeline.py
+          is not yet wired in; that needs native (NDK) builds of
+          llama.cpp, whisper.cpp, and onnxruntime for Android, which is
+          future work, not part of this skeleton.
+        -->
+        <service
+            android:name=".PehredarCallScreeningService"
+            android:exported="true"
+            android:permission="android.permission.BIND_SCREENING_SERVICE">
+            <intent-filter>
+                <action android:name="android.telecom.CallScreeningService" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

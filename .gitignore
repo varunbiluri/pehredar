@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Model weights (downloaded, not committed)
+models/
+finetune/adapter/
+finetune/merged/
+finetune/checkpoints/
+prototype/*.wav
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+*.apk
+*.aab
