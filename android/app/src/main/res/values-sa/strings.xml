@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">कॉल-स्क्रीनिंग सक्षमं कुर्वन्तु</string>
     <string name="role_active">पहरेदारः भवतः कॉल-स्क्रीनिंग-अनुप्रयोगः अस्ति।</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">सम्पर्क-प्रवेशः दत्तः — अज्ञात-सङ्ख्याः मौनं कर्तुं उपलभ्यते।</string>
     <string name="contacts_not_granted">सम्पर्क-प्रवेशः न दत्तः — अज्ञात-सङ्ख्याः मौनं कर्तुं न उपलभ्यते।</string>
     <string name="silence_unknown_switch">मम सम्पर्केषु न सन्ति याः सङ्ख्याः, तासां आह्वानं मौनेन रणतु</string>
+    <string name="screen_title">निजी-काल्-संरक्षणम्</string>
+    <string name="screen_subtitle">अज्ञातसङ्ख्याः निश्शब्दतया ध्वन्यन्त। भवतः संपर्काः अस्मिन् दूरवाणे एव तिष्ठन्ति।</string>
+    <string name="setup_title">एते द्वौ चरणौ पूरय।</string>
+    <string name="protection_title">रक्षणम्।</string>
+    <string name="privacy_note">केवलं उपकरणस्य उपरि एव। खाता नास्ति। विज्ञापनानि न सन्ति। जालजालस्य अभिगमः नास्ति।</string>
+    <string name="safety_note">सञ्चिताः सम्पर्काः सामान्यतया रिङ्ग्-कुर्वन्ति। यदि संख्या अन्वेष्टुं न शक्यते तर्हि सा अपि सामान्यतया रिङ्ग्-करोति।</string>
+    <string name="languages_title">भाषा समर्थनम्</string>
+    <string name="languages_summary">मुख्यनियन्त्रणानि आङ्ग्लभाषायां, 22 भारतीयभाषासु च उपलभ्यन्ते।</string>
+    <string name="languages_scope_note">एतत् बीटा दूरवाण्याः सङ्ख्याः परीक्षयति। एतत् दूरवाण्याः श्रवणम् न करोति। एतत् कस्यापि भाषां भाषमाणैः दूरवाण्याः कृते कार्यं करोति।</string>
 </resources>

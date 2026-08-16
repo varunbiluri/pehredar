@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">కాల్ స్క్రీనింగ్‌ను ప్రారంభించండి</string>
     <string name="role_active">పెహ్రెదార్ మీ కాల్ స్క్రీనింగ్ యాప్.</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">కాంటాక్ట్ యాక్సెస్ మంజూరు చేయబడింది — తెలియని నంబర్లను నిశ్శబ్దం చేయడం అందుబాటులో ఉంది.</string>
     <string name="contacts_not_granted">కాంటాక్ట్ యాక్సెస్ మంజూరు కాలేదు — తెలియని నంబర్లను నిశ్శబ్దం చేయడం అందుబాటులో లేదు.</string>
     <string name="silence_unknown_switch">నా కాంటాక్ట్‌లలో లేని నంబర్ల కాల్‌లను నిశ్శబ్దంగా మోగించు</string>
+    <string name="screen_title">ప్రైవేట్ కాల్ రక్షణ</string>
+    <string name="screen_subtitle">తెలియని నంబర్లు నిశ్శబ్దంగా మోగుతాయి. మీ పరిచయాలు ఈ ఫోన్లోనే ఉంటాయి.</string>
+    <string name="setup_title">ఈ రెండు దశలను పూర్తి చేయండి.</string>
+    <string name="protection_title">రక్షణ</string>
+    <string name="privacy_note">పరికరంలో మాత్రమే. ఖాతా లేదు. ప్రకటనలు లేవు. నెట్వర్క్ యాక్సెస్ లేదు.</string>
+    <string name="safety_note">భద్రపరచబడిన పరిచయాలు సాధారణంగా రింగ్ అవుతాయి. ఒక సంఖ్యను తనిఖీ చేయలేకపోతే, అది కూడా సాధారణంగా రింగ్ అవుతుంది.</string>
+    <string name="languages_title">భాషా మద్దతు</string>
+    <string name="languages_summary">ప్రధాన నియంత్రణలు ఆంగ్లంలో మరియు 22 భారతీయ భాషలలో అందుబాటులో ఉన్నాయి.</string>
+    <string name="languages_scope_note">ఈ బీటా ఫోన్ నంబర్లను తనిఖీ చేస్తుంది. ఇది కాల్స్ వినదు. ఇది ఏ భాష మాట్లాడే కాల్ చేసేవారితోనూ పనిచేస్తుంది.</string>
 </resources>

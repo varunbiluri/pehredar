@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">कल स्क्रिनिंखौ मावफिन।</string>
     <string name="role_active">पहरेदारआ नोंथांनि कल स्क्रिनिं एप।</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">सोमोन्दोफोर मोनहैनायनि गनायथि होनाय जादों। मिथिजायै अनजिमाफोरखौ सिरि दोननाया मोननोहाथाव।</string>
     <string name="contacts_not_granted">सोमोन्दोफोर मोनहैनायनि गनायथि होनाय जायाखै। मिथिजायै अनजिमाफोरखौ सिरि दोननाया जाथावै।</string>
     <string name="silence_unknown_switch">आंनि कन्टेक्टफोराव गैयालासेनो सिरि रिं कल खालाम।</string>
+    <string name="screen_title">गावारि कल रैखाथि।</string>
+    <string name="screen_subtitle">मिथिजायै नम्बरफोरा सिरि-सिरि रिंसारो। नोंथांनि सोमोन्दोफोरा बे फनाव थायो।</string>
+    <string name="setup_title">बे मोननै आगानफोरखौ आबुं खालाम।</string>
+    <string name="protection_title">रैखाथि।</string>
+    <string name="privacy_note">अन-डिभाइसावल\'। एकाउन्ट गैया। फोसावथाइ गैया। नेटवर्कनि राहा गैया।</string>
+    <string name="safety_note">दोनथुमनाय सोमोन्दोफोरा सरासनस्रा रिंखाङो। मोनसे अनजिमाखौ नायग्रोमनो हायाब्ला, बेयो सरासनस्रा रिंबो खालामो।</string>
+    <string name="languages_title">राव मदद।</string>
+    <string name="languages_summary">कोर कन्ट्रोलफोरा इंराजि आरो 22 भारतारि रावफोराव दं।</string>
+    <string name="languages_scope_note">बे बिटाया जानबुं नम्बरफोरखौ नायबिजिरो। बेयो कलफोरखौ खोनानो हाया। बेयो जायखिजाया राव रायज्लायग्रा कल खालामग्राफोरजों खामानि मावो।</string>
 </resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">কল স্ক্ৰীনিং অন কৰক</string>
     <string name="role_active">পেহৰেদাৰ আপোনাৰ কল স্ক্ৰীনিং এপ।</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">সম্পৰ্ক প্ৰৱেশাধিকাৰ দিয়া হ\'ল — অজ্ঞাত নম্বৰ নিমাত কৰাটো উপলব্ধ।</string>
     <string name="contacts_not_granted">সম্পৰ্ক প্ৰৱেশাধিকাৰ দিয়া হোৱা নাই — অজ্ঞাত নম্বৰ নিমাত কৰাটো উপলব্ধ নহয়।</string>
     <string name="silence_unknown_switch">মোৰ সম্পৰ্কত নথকা নম্বৰৰ কল নিমাতকৈ বাজিব দিয়ক</string>
+    <string name="screen_title">ব্যক্তিগত কল সুৰক্ষা</string>
+    <string name="screen_subtitle">অচিনাকি নম্বৰৰ কলবোৰ নীৰৱে বাজে। আপোনাৰ সম্পৰ্কবোৰ এই ফোনতেই থাকে।</string>
+    <string name="setup_title">এই দুটা পদক্ষেপ সম্পূৰ্ণ কৰক</string>
+    <string name="protection_title">সুৰক্ষা</string>
+    <string name="privacy_note">কেৱল অন-ডিভাইচ। কোনো একাউণ্ট নাই। কোনো বিজ্ঞাপন নাই। কোনো নেটৱৰ্কৰ প্ৰৱেশাধিকাৰ নাই।</string>
+    <string name="safety_note">সংৰক্ষিত সম্পৰ্কৰ কলবোৰ স্বাভাৱিকভাৱে বাজে। কোনো নম্বৰ পৰীক্ষা কৰিব নোৱাৰিলেও কলটো স্বাভাৱিকভাৱে বাজে।</string>
+    <string name="languages_title">ভাষা সমৰ্থন</string>
+    <string name="languages_summary">মূল নিয়ন্ত্ৰণসমূহ ইংৰাজী আৰু 22টা ভাৰতীয় ভাষাত উপলব্ধ।</string>
+    <string name="languages_scope_note">এই বিটাই ফোন নম্বৰবোৰ পৰীক্ষা কৰে। ই কলবোৰ শুনিব নোৱাৰে। ই যিকোনো ভাষা কোৱা কল কৰোঁতাসকলৰ সৈতে কাম কৰে।</string>
 </resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">କଲ୍ ସ୍କ୍ରିନିଂ ଚାଲୁ କରନ୍ତୁ</string>
     <string name="role_active">ପେହେରେଦାର୍ ଆପଣଙ୍କର କଲ୍ ସ୍କ୍ରିନିଂ ଆପ୍।</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">ସମ୍ପର୍କ ଆକ୍ସେସ୍ ଦିଆଯାଇଛି — ଅଜଣା ନମ୍ବରଗୁଡ଼ିକୁ ନୀରବ କରିବା ଉପଲବ୍ଧ।</string>
     <string name="contacts_not_granted">ସମ୍ପର୍କ ଆକ୍ସେସ୍ ଦିଆଯାଇନାହିଁ — ଅଜଣା ନମ୍ବରଗୁଡ଼ିକୁ ନୀରବ କରିବା ଉପଲବ୍ଧ ନାହିଁ।</string>
     <string name="silence_unknown_switch">ମୋ ସମ୍ପର୍କରେ ନଥିବା ନମ୍ବରର କଲ୍ ନୀରବରେ ବଜାନ୍ତୁ</string>
+    <string name="screen_title">ବ୍ଯ଼କ୍ତିଗତ କଲ୍ ସୁରକ୍ଷା</string>
+    <string name="screen_subtitle">ଅଜଣା ନମ୍ବରଗୁଡ଼ିକ ନୀରବରେ ବାଜୁଛି। ଆପଣଙ୍କ ସମ୍ପର୍କଗୁଡ଼ିକ ଏହି ଫୋନରେ ରହିଥାଏ।</string>
+    <string name="setup_title">ଏହି ଦୁଇଟି ପଦକ୍ଷେପ ପୂରଣ କରନ୍ତୁ।</string>
+    <string name="protection_title">ସୁରକ୍ଷା</string>
+    <string name="privacy_note">କେବଳ ଅନ୍-ଡିଭାଇସ୍। କୌଣସି ଆକାଉଣ୍ଟ ନାହିଁ। କୌଣସି ବିଜ୍ଞାପନ ନାହିଁ। କୌଣସି ନେଟୱାର୍କ ପ୍ରବେଶ ନାହିଁ।</string>
+    <string name="safety_note">ସଂରକ୍ଷିତ ସମ୍ପର୍କଗୁଡ଼ିକ ସାଧାରଣତଃ ବାଜୁଛି। ଯଦି କୌଣସି ନମ୍ବରକୁ ଯାଞ୍ଚ କରାଯାଇପାରିବ ନାହିଁ, ତେବେ ଏହା ମଧ୍ଯ଼ ସାଧାରଣତଃ ବାଜୁଛି।</string>
+    <string name="languages_title">ଭାଷା ସମର୍ଥନ</string>
+    <string name="languages_summary">କୋର କଣ୍ଟ୍ରୋଲ ଇଂରାଜୀ ଏବଂ 22ଟି ଭାରତୀଯ଼ ଭାଷାରେ ଉପଲବ୍ଧ।</string>
+    <string name="languages_scope_note">ଏହି ବିଟା ଫୋନ୍ ନମ୍ବର ଯାଞ୍ଚ କରେ। ଏହା କଲ୍ ଶୁଣେ ନାହିଁ। ଏହା କୌଣସି ଭାଷା କହିଥିବା କଲ୍ କରୁଥିବା ବ୍ଯ଼କ୍ତିଙ୍କ ସହିତ କାମ କରେ |</string>
 </resources>

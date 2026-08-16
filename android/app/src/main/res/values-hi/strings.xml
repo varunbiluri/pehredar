@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">कॉल स्क्रीनिंग चालू करें</string>
     <string name="role_active">पहरेदार आपका कॉल स्क्रीनिंग ऐप है।</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">संपर्क एक्सेस दी गई — अज्ञात नंबर साइलेंस करना उपलब्ध है।</string>
     <string name="contacts_not_granted">संपर्क एक्सेस नहीं दी गई — अज्ञात नंबर साइलेंस करना उपलब्ध नहीं है।</string>
     <string name="silence_unknown_switch">जो नंबर मेरे संपर्कों में नहीं हैं उन्हें साइलेंट रिंग करें</string>
+    <string name="screen_title">निजी कॉल सुरक्षा</string>
+    <string name="screen_subtitle">अज्ञात नंबर चुपचाप बजते हैं। आपके संपर्क इस फोन पर ही रहते हैं।</string>
+    <string name="setup_title">इन दो चरणों को पूरा करें।</string>
+    <string name="protection_title">सुरक्षा</string>
+    <string name="privacy_note">केवल उपकरण पर। कोई खाता नहीं। कोई विज्ञापन नहीं। कोई नेटवर्क पहुँच नहीं।</string>
+    <string name="safety_note">सहेजे गए संपर्क सामान्य रूप से बजते हैं। यदि किसी संख्या की जाँच नहीं की जा सकती है, तो यह भी सामान्य रूप से बजता है।</string>
+    <string name="languages_title">भाषा समर्थन</string>
+    <string name="languages_summary">मुख्य नियंत्रण अंग्रेजी और 22 भारतीय भाषाओं में उपलब्ध हैं।</string>
+    <string name="languages_scope_note">यह बीटा फोन नंबरों की जाँच करता है। यह कॉल नहीं सुनता है। यह किसी भी भाषा में कॉल करने वालों के साथ काम करता है।</string>
 </resources>

@@ -77,6 +77,10 @@ the right one automatically from the phone's system language.
 protection controls are localized. Screening itself works for a caller
 speaking any language because the shipping app checks the incoming phone
 number against contacts; it does not listen to, transcribe, or speak on calls.
+The complete visible interface now has resources for every listed locale,
+including the setup, privacy, safety, and language-support sections. CI rejects
+missing strings and accidental English fallbacks. See [TRANSLATIONS.md](TRANSLATIONS.md)
+for the reproducible generation, validation, and native-review process.
 
 The 14 higher-resource languages (Hindi, Bengali, Telugu, Marathi, Tamil,
 Kannada, Malayalam, Gujarati, Punjabi, Odia, Assamese, Urdu, Nepali,

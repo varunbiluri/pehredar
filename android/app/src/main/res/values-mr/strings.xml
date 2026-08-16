@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">कॉल स्क्रीनिंग सुरू करा</string>
     <string name="role_active">पहरेदार हे तुमचे कॉल स्क्रीनिंग अ‍ॅप आहे.</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">संपर्क प्रवेश दिला — अनोळखी क्रमांक सायलेंट करणे उपलब्ध आहे.</string>
     <string name="contacts_not_granted">संपर्क प्रवेश दिलेला नाही — अनोळखी क्रमांक सायलेंट करणे उपलब्ध नाही.</string>
     <string name="silence_unknown_switch">माझ्या संपर्कांत नसलेल्या क्रमांकांचे कॉल सायलेंट वाजवा</string>
+    <string name="screen_title">खाजगी कॉल संरक्षण</string>
+    <string name="screen_subtitle">अज्ञात क्रमांक शांतपणे वाजतात. तुमचे संपर्क ह्या फोनवर राहतात.</string>
+    <string name="setup_title">या दोन पायऱ्या पूर्ण करा.</string>
+    <string name="protection_title">संरक्षण</string>
+    <string name="privacy_note">केवळ उपकरणावर. खाते नाही. जाहिराती नाहीत. जाळ्यामध्ये प्रवेश नाही.</string>
+    <string name="safety_note">जतन केलेले संपर्क सामान्यतः वाजतात. जर एखादा क्रमांक तपासता येत नसेल, तर तो देखील नेहमी वाजतो.</string>
+    <string name="languages_title">भाषेचे समर्थन</string>
+    <string name="languages_summary">मुख्य नियंत्रणे इंग्रजी आणि 22 भारतीय भाषांमध्ये उपलब्ध आहेत.</string>
+    <string name="languages_scope_note">हा बीटा दूरध्वनी क्रमांक तपासतो. कॉल ऐकणार नाही. कोणत्याही भाषेत बोलणाऱ्या कॉल करणाऱ्यांसाठी हे काम करते.</string>
 </resources>

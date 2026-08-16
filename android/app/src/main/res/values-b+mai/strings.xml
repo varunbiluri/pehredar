@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">कॉल जाँच सक्रिय करू</string>
     <string name="role_active">पहरेदार अहाँक कॉल स्क्रीनिंग ऐप अछि।</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">सम्पर्कक पहुँच देल गेल अछि। अज्ञात नम्बरकेँ चुप करबाक सुविधा उपलब्ध अछि।</string>
     <string name="contacts_not_granted">सम्पर्कक पहुँच नहि देल गेल अछि। अज्ञात नम्बरकेँ बन्द करब अनुपलब्ध अछि।</string>
     <string name="silence_unknown_switch">हमर सम्पर्कमे नहि, चुपचाप कॉल बजाउ।</string>
+    <string name="screen_title">निजी कॉल सुरक्षा</string>
+    <string name="screen_subtitle">अज्ञात नम्बर पर चुपचाप बजैत अछि। अहाँक सम्पर्क एहि फोन पर रहैत अछि।</string>
+    <string name="setup_title">ई दूटा चरण पूरा करू।</string>
+    <string name="protection_title">सुरक्षा</string>
+    <string name="privacy_note">केवल उपकरण पर। कोनो खाता नहि। कोनो विज्ञापन नहि। कोनो नेटवर्क पहुँच नहि।</string>
+    <string name="safety_note">सहेजल सम्पर्क सामान्य रूपसँ बजैत अछि। यदि कोनो सङ्ख्याक जाँच नहि कयल जा सकैत अछि तँ ई सामान्य रूपसँ बजैत अछि।</string>
+    <string name="languages_title">भाषा समर्थन</string>
+    <string name="languages_summary">कोर कंट्रोल अंग्रेजी आ 22 भारतीय भाषामे उपलब्ध अछि।</string>
+    <string name="languages_scope_note">ई बीटा फोन नंबरक जाँच करैत अछि। ई कॉल नहि सुनैत अछि। ई कोनो भाषा बोलयवला कॉलकर्ताक सङ्ग काज करैत अछि।</string>
 </resources>

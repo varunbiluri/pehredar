@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">কল স্ক্রিনিং সক্রিয় করুন</string>
     <string name="role_active">পেহরেদার অসি অদোমগী কোল স্ক্রীনিং এপনি।</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">কন্তেক্তশিং এক্সেস তৌবা য়াহনখ্রে। খঙবা ঙমদবা নম্বরশিং সাইলেন্স তৌবা য়াহনখ্রে।</string>
     <string name="contacts_not_granted">কন্তেক্তশিং এক্সেস তৌবা অয়াবা পীদে। খঙবা ঙমদবা নম্বরশিং সাইলেন্স তৌবা ঙমদে।</string>
     <string name="silence_unknown_switch">ঐগী কন্তেক্তশিংদা নোত কলশিং নিংথিনা রিং তৌ।</string>
+    <string name="screen_title">প্রাইবেৎ কোল প্রোতেক্সন</string>
+    <string name="screen_subtitle">শকখঙদবা নম্বরশিং অদু নুংশিনবা ওইনা রিং তৌই। অদোমগী কন্তেক্তশিং অসি ফোন অসিদা লৈ।</string>
+    <string name="setup_title">খোঙথাং অনি অসি মপুং ফানা লোইশিনবা।</string>
+    <string name="protection_title">ঙাক-শেনবা</string>
+    <string name="privacy_note">অন-দিভাইস খক্তদা। একাউন্ট লৈতে। এদশিং লৈতে। নেৎৱার্ক এক্সেস লৈতে।</string>
+    <string name="safety_note">সেভ তৌরবা কন্তেক্তশিংনা মহৌশানা রিং তৌই। করিগুম্বা নম্বর অমা চেক তৌবা ঙমদ্রবদি, মদুসু মহৌশানা রিং তৌই।</string>
+    <string name="languages_title">লোনশিংগী মতেং পীবা</string>
+    <string name="languages_summary">কোর কন্ত্রোলশিং অসি ইংলিশ অমসুং ভারতকী লোল 22দা ফংই।</string>
+    <string name="languages_scope_note">মসিগী বেটা অসিনা ফোন নম্বরশিং য়েংশিল্লি। মসিনা কলশিং তাবা ঙমদে। মসিনা লোল অমত্তদা ৱা ঙাংলিবা মীওইশিংগা লোয়ননা মথৌ তৌই।</string>
 </resources>

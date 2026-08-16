@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">কল স্ক্রিনিং চালু করুন</string>
     <string name="role_active">পেহরেদার আপনার কল স্ক্রিনিং অ্যাপ।</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">পরিচিতি অ্যাক্সেস অনুমোদিত — অজানা নম্বর নীরব করা সম্ভব।</string>
     <string name="contacts_not_granted">পরিচিতি অ্যাক্সেস অনুমোদিত নয় — অজানা নম্বর নীরব করা সম্ভব নয়।</string>
     <string name="silence_unknown_switch">আমার পরিচিতিতে নেই এমন নম্বরের কল নীরবে বাজুক</string>
+    <string name="screen_title">ব্যক্তিগত কল সুরক্ষা</string>
+    <string name="screen_subtitle">অজানা নম্বরগুলি নিঃশব্দভাবে বাজছে। আপনার পরিচিতিগুলি এই ফোনে থাকে।</string>
+    <string name="setup_title">এই দুটি ধাপ সম্পূর্ণ করুন।</string>
+    <string name="protection_title">সুরক্ষা</string>
+    <string name="privacy_note">শুধুমাত্র অন-ডিভাইসে। কোনও অ্যাকাউন্ট নেই। কোনও বিজ্ঞাপন নেই। কোনও নেটওয়ার্ক অ্যাক্সেস নেই।</string>
+    <string name="safety_note">সংরক্ষিত পরিচিতিগুলি সাধারণত রিং করে। যদি কোনও নম্বর চেক করা না যায়, তবে এটিও স্বাভাবিকভাবে রিং করে।</string>
+    <string name="languages_title">ভাষা সমর্থন</string>
+    <string name="languages_summary">মূল নিয়ন্ত্রণগুলি ইংরেজি এবং 22টি ভারতীয় ভাষায় পাওয়া যায়।</string>
+    <string name="languages_scope_note">এই বিটা ফোন নম্বরগুলি পরীক্ষা করে। এটি কলগুলি শোনে না। এটি যে কোনও ভাষায় কথা বলা কলকারীদের সাথে কাজ করে।</string>
 </resources>

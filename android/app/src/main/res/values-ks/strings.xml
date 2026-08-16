@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">کال سکریننگ کر فعال۔</string>
     <string name="role_active">پہریدار چھ تہنٛد کال سکریننگ ایپ۔</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">رٲبطہٕ رسٲیی چھےٚ دنہٕ آمٕژ۔ نامعلوم نمبرن ہنٛد خاموش کرن چھ دٔستیاب۔</string>
     <string name="contacts_not_granted">رٲبطہٕ رسٲیی چھنہٕ دنہٕ آمٕژ۔ نامعلوم نمبرن ہنٛد خاموش کرن چھ نہٕ دستیاب۔</string>
     <string name="silence_unknown_switch">میانہ رٲبطس منٛز چھنہٕ چپ چاپ کال کران۔</string>
+    <string name="screen_title">پرائیویٹ کال پروٹیکشن</string>
+    <string name="screen_subtitle">ناواقف نمبر چھ چپ چاپ بجان۔ تہنٛدس رٲبطہٕ چھ اتھ فونس پؠٹھ روزان۔</string>
+    <string name="setup_title">یم زٕ مرحلہٕ کر مکمل۔</string>
+    <string name="protection_title">تحفظ۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔</string>
+    <string name="privacy_note">صرف آن ڈیوائس۔ چھنہٕ کانٛہہ اکاؤنٹ۔ چھنہٕ کانٛہہ اشتہار۔ چھنہٕ کانٛہہ نیٹ ورک رسٲیی۔</string>
+    <string name="safety_note">محفوظ کرنہٕ آمٕتۍ رٲبطہٕ چھ عام طور بجان۔ اگر کانٛہہ نمبر ہیکو نہٕ چیک کٔرتھ، یہ تہ چھ عام طور بجان۔</string>
+    <string name="languages_title">زبٲنۍ ہنز حمایت</string>
+    <string name="languages_summary">کور کنٹرولز چھ انگریزی تہٕ 22 ہندوستٲنی زبانن منٛز دٔستیاب۔</string>
+    <string name="languages_scope_note">یہ بیٹا چھ فون نمبر چیک کران۔ یہ چھنہٕ کال سنان۔ یہ چھ کال کرن والؠن سۭتۍ کٲم کران یم کانٛہہ تہ زبان چھ ونان۔</string>
 </resources>

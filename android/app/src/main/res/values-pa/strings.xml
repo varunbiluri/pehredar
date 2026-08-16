@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">ਕਾਲ ਸਕ੍ਰੀਨਿੰਗ ਚਾਲੂ ਕਰੋ</string>
     <string name="role_active">ਪਹਿਰੇਦਾਰ ਤੁਹਾਡੀ ਕਾਲ ਸਕ੍ਰੀਨਿੰਗ ਐਪ ਹੈ।</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">ਸੰਪਰਕ ਪਹੁੰਚ ਦਿੱਤੀ ਗਈ — ਅਣਜਾਣ ਨੰਬਰਾਂ ਨੂੰ ਸਾਈਲੈਂਟ ਕਰਨਾ ਉਪਲਬਧ ਹੈ।</string>
     <string name="contacts_not_granted">ਸੰਪਰਕ ਪਹੁੰਚ ਨਹੀਂ ਦਿੱਤੀ ਗਈ — ਅਣਜਾਣ ਨੰਬਰਾਂ ਨੂੰ ਸਾਈਲੈਂਟ ਕਰਨਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।</string>
     <string name="silence_unknown_switch">ਮੇਰੇ ਸੰਪਰਕਾਂ ਵਿੱਚ ਨਾ ਹੋਣ ਵਾਲੇ ਨੰਬਰਾਂ ਦੀਆਂ ਕਾਲਾਂ ਚੁੱਪਚਾਪ ਵਜਾਓ</string>
+    <string name="screen_title">ਪ੍ਰਾਈਵੇਟ ਕਾਲ ਸੁਰੱਖਿਆ</string>
+    <string name="screen_subtitle">ਅਣਜਾਣ ਨੰਬਰ ਚੁੱਪਚਾਪ ਵੱਜਦੇ ਹਨ। ਤੁਹਾਡੇ ਸੰਪਰਕ ਇਸ ਫੋਨ ਉੱਤੇ ਰਹਿੰਦੇ ਹਨ।</string>
+    <string name="setup_title">ਇਹਨਾਂ ਦੋ ਕਦਮਾਂ ਨੂੰ ਪੂਰਾ ਕਰੋ</string>
+    <string name="protection_title">ਸੁਰੱਖਿਆ</string>
+    <string name="privacy_note">ਸਿਰਫ਼ ਉਪਕਰਣ ਉੱਤੇ। ਕੋਈ ਖਾਤਾ ਨਹੀਂ। ਕੋਈ ਵਿਗਿਆਪਨ ਨਹੀਂ। ਕੋਈ ਨੈੱਟਵਰਕ ਪਹੁੰਚ ਨਹੀਂ।</string>
+    <string name="safety_note">ਸੰਭਾਲੇ ਸੰਪਰਕ ਆਮ ਤੌਰ ਉੱਤੇ ਰਿੰਗ ਕਰਦੇ ਹਨ। ਜੇਕਰ ਕੋਈ ਨੰਬਰ ਚੈੱਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ, ਤਾਂ ਇਹ ਵੀ ਆਮ ਤੌਰ ਉੱਤੇ ਰਿੰਗ ਕਰਦਾ ਹੈ।</string>
+    <string name="languages_title">ਭਾਸ਼ਾ ਸਹਾਇਤਾ</string>
+    <string name="languages_summary">ਕੋਰ ਕੰਟਰੋਲ ਅੰਗਰੇਜ਼ੀ ਅਤੇ 22 ਭਾਰਤੀ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਉਪਲਬਧ ਹਨ।</string>
+    <string name="languages_scope_note">ਇਹ ਬੀਟਾ ਫੋਨ ਨੰਬਰਾਂ ਦੀ ਜਾਂਚ ਕਰਦਾ ਹੈ। ਇਹ ਕਾਲਾਂ ਨੂੰ ਨਹੀਂ ਸੁਣਦਾ। ਇਹ ਕਿਸੇ ਵੀ ਭਾਸ਼ਾ ਵਿੱਚ ਕਾਲ ਕਰਨ ਵਾਲਿਆਂ ਨਾਲ ਕੰਮ ਕਰਦਾ ਹੈ।</string>
 </resources>

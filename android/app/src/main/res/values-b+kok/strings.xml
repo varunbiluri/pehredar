@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">कॉल स्क्रीनींग सक्षम कर</string>
     <string name="role_active">पहरेदार हें तुजें कॉल स्क्रीनींग एप.</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">संपर्कांक प्रवेश मेळ्ळो. अज्ञात क्रमांकांचेर मौन दवरप उपलब्ध आसा.</string>
     <string name="contacts_not_granted">संपर्कांक प्रवेश दिवंक मेळना. अज्ञात क्रमांकांक शांत करप उपलब्ध ना.</string>
     <string name="silence_unknown_switch">म्हज्या संपर्कांत नासतना शांतपणान कॉल कॉल करचो.</string>
+    <string name="screen_title">खाजगी कॉल संरक्षण</string>
+    <string name="screen_subtitle">अज्ञात क्रमांक शांतपणान वाजतात. तुमचो संपर्क ह्या फोनाचेर उरता.</string>
+    <string name="setup_title">हीं दोन पावलां पुराय करात.</string>
+    <string name="protection_title">राखण</string>
+    <string name="privacy_note">फकत ऑन-डिव्हाइस. खातें ना. जायरात ना. नेटवर्क प्रवेश ना.</string>
+    <string name="safety_note">सांबाळून दवरिल्ले संपर्क सादारणपणान वाजतात. क्रमांक तपासपाक मेळना जाल्यार तो लेगीत सामान्यपणान वाजता.</string>
+    <string name="languages_title">भाशेचो आदार</string>
+    <string name="languages_summary">मुखेल नियंत्रणां इंग्लीश आनी 22 भारतीय भाशांनी मेळटात.</string>
+    <string name="languages_scope_note">हो बीटा फोन क्रमांक तपासता. तो कॉल आयकुपाक मेळना. खंयचीय भास उलोवपी कॉल करपी कडेन तो काम करता.</string>
 </resources>

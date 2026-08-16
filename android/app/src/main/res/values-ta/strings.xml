@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">அழைப்பு திரையிடலை இயக்கு</string>
     <string name="role_active">பெஹ்ரேதார் உங்கள் அழைப்பு திரையிடல் ஆப்.</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">தொடர்பு அணுகல் வழங்கப்பட்டது — அறியப்படாத எண்களை மௌனமாக்க முடியும்.</string>
     <string name="contacts_not_granted">தொடர்பு அணுகல் வழங்கப்படவில்லை — அறியப்படாத எண்களை மௌனமாக்க முடியாது.</string>
     <string name="silence_unknown_switch">எனது தொடர்புகளில் இல்லாத எண்களின் அழைப்புகளை மௌனமாக ஒலிக்கச் செய்</string>
+    <string name="screen_title">தனியார் அழைப்பு பாதுகாப்பு</string>
+    <string name="screen_subtitle">அறியப்படாத எண்கள் அமைதியாக ஒலிக்கின்றன. உங்கள் தொடர்புகள் இந்த தொலைபேசியில் உள்ளன.</string>
+    <string name="setup_title">இந்த இரண்டு படிநிலைகளையும் முடிக்கவும்.</string>
+    <string name="protection_title">பாதுகாப்பு</string>
+    <string name="privacy_note">சாதனத்தில் மட்டும். கணக்கு இல்லை. விளம்பரங்கள் இல்லை. பிணைய அணுகல் இல்லை.</string>
+    <string name="safety_note">சேமிக்கப்பட்ட தொடர்புகள் வழக்கமாக ஒலிக்கின்றன. ஒரு எண்ணை சரிபார்க்க முடியாவிட்டால், அது வழக்கமாக ஒலிக்கிறது.</string>
+    <string name="languages_title">மொழி ஆதரவு</string>
+    <string name="languages_summary">முக்கிய கட்டுப்பாடுகள் ஆங்கிலம் மற்றும் 22 இந்திய மொழிகளில் கிடைக்கின்றன.</string>
+    <string name="languages_scope_note">இந்த பீட்டா தொலைபேசி எண்களைச் சரிபார்க்கிறது. இது அழைப்புகளைக் கேட்காது. இது எந்த மொழியையும் பேசும் அழைப்பாளர்களுடன் வேலை செய்கிறது.</string>
 </resources>

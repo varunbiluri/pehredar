@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">कॉल स्क्रीनिंग सक्षम करो</string>
     <string name="role_active">पहरेदार तुंʼदा कॉल स्क्रीनिंग ऐप ऐ।</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">संपर्क दी इजाज़त दित्ती गेई ऐ। अनजान नंबरें गी बंद करना उपलब्ध ऐ।</string>
     <string name="contacts_not_granted">संपर्क दी इजाज़त नेईं दित्ती गेई ऐ। अनजान नंबरें गी बंद करना अनुपलब्ध ऐ।</string>
     <string name="silence_unknown_switch">मेरे संपर्कें च नेईं, चुपचाप कॉल करो</string>
+    <string name="screen_title">निजी कॉल सुरक्षा</string>
+    <string name="screen_subtitle">अनजान नंबर चुपचाप बजदे न। तुंʼदे संपर्क इस फोन पर होंदे न।</string>
+    <string name="setup_title">इʼनें द\'ऊं चरणें गी पूरा करो</string>
+    <string name="protection_title">सुरक्षा</string>
+    <string name="privacy_note">छड़ा उपकरण पर। कोई खाता नेईं। कोई विज्ञापन नेईं। कोई नेटवर्क एक्सेस नेईं।</string>
+    <string name="safety_note">सहेजे गेदे संपर्क सधारण तौरा पर बजदे न। जे इक नंबर दी जांच नेईं कीती जाई सकदी ऐ, तां एह् बी सधारण तौरा पर बजदा ऐ।</string>
+    <string name="languages_title">भाशा समर्थन</string>
+    <string name="languages_summary">कोर कंट्रोल अंग्रेज़ी ते 22 भारती भाशाएं च उपलब्ध न।</string>
+    <string name="languages_scope_note">एह् बीटा फोन नंबरें दी जांच करदा ऐ। एह् कॉल नेईं सुणदा ऐ। एह् कोई बी भाशा बोलने आह्ले कॉल करने आह्ले दे कन्नै कम्म करदा ऐ।</string>
 </resources>

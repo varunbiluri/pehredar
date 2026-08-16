@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">കോൾ സ്ക്രീനിംഗ് ഓണാക്കുക</string>
     <string name="role_active">പെഹ്‌രേദാർ ആണ് നിങ്ങളുടെ കോൾ സ്ക്രീനിംഗ് ആപ്പ്.</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">കോൺടാക്റ്റ് ആക്സസ് അനുവദിച്ചു — അജ്ഞാത നമ്പറുകൾ നിശബ്ദമാക്കാൻ കഴിയും.</string>
     <string name="contacts_not_granted">കോൺടാക്റ്റ് ആക്സസ് അനുവദിച്ചിട്ടില്ല — അജ്ഞാത നമ്പറുകൾ നിശബ്ദമാക്കാൻ കഴിയില്ല.</string>
     <string name="silence_unknown_switch">എന്റെ കോൺടാക്റ്റുകളിൽ ഇല്ലാത്ത നമ്പറുകളുടെ കോളുകൾ നിശബ്ദമായി റിംഗ് ചെയ്യുക</string>
+    <string name="screen_title">സ്വകാര്യ കോൾ സംരക്ഷണം</string>
+    <string name="screen_subtitle">അജ്ഞാതമായ നമ്പറുകൾ നിശബ്ദമായി റിംഗ് ചെയ്യുന്നു. നിങ്ങളുടെ കോൺടാക്റ്റുകൾ ഈ ഫോണിലാണ്.</string>
+    <string name="setup_title">ഈ രണ്ട് ഘട്ടങ്ങളും പൂർത്തിയാക്കുക.</string>
+    <string name="protection_title">സംരക്ഷണം</string>
+    <string name="privacy_note">ഉപകരണത്തിൽ മാത്രം. അക്കൌണ്ടില്ല. പരസ്യങ്ങളില്ല. നെറ്റ്വർക്ക് ആക്സസ് ഇല്ല.</string>
+    <string name="safety_note">സേവ് ചെയ്ത കോൺടാക്റ്റുകൾ സാധാരണയായി റിംഗ് ചെയ്യുന്നു. ഒരു നമ്പർ പരിശോധിക്കാൻ കഴിയുന്നില്ലെങ്കിൽ, അതും സാധാരണയായി റിംഗ് ചെയ്യുന്നു.</string>
+    <string name="languages_title">ഭാഷാ പിന്തുണ</string>
+    <string name="languages_summary">കോർ കൺട്രോളുകൾ ഇംഗ്ലീഷിലും 22 ഇന്ത്യൻ ഭാഷകളിലും ലഭ്യമാണ്.</string>
+    <string name="languages_scope_note">ഈ ബീറ്റ ഫോൺ നമ്പറുകൾ പരിശോധിക്കുന്നു. ഇത് കോളുകൾ കേൾക്കുന്നില്ല. ഏത് ഭാഷയും സംസാരിക്കുന്ന കോളർമാരുമായി ഇത് പ്രവർത്തിക്കുന്നു.</string>
 </resources>

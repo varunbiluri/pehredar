@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">کال اسکریننگ فعال کریں</string>
     <string name="role_active">پہریدار آپ کی کال اسکریننگ ایپ ہے۔</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">رابطوں تک رسائی دی گئی — نامعلوم نمبروں کو خاموش کرنا دستیاب ہے۔</string>
     <string name="contacts_not_granted">رابطوں تک رسائی نہیں دی گئی — نامعلوم نمبروں کو خاموش کرنا دستیاب نہیں ہے۔</string>
     <string name="silence_unknown_switch">میرے رابطوں میں نہ ہونے والے نمبروں کی کالز خاموشی سے بجائیں</string>
+    <string name="screen_title">پرائیویٹ کال پروٹیکشن</string>
+    <string name="screen_subtitle">نامعلوم نمبر خاموشی سے بجتے ہیں۔ آپ کے رابطے اس فون پر ہی رہتے ہیں۔</string>
+    <string name="setup_title">ان دو مراحل کو مکمل کریں</string>
+    <string name="protection_title">تحفظ</string>
+    <string name="privacy_note">صرف ڈیوائس پر۔ کوئی اکاؤنٹ نہیں۔ کوئی اشتہارات نہیں۔ نیٹ ورک تک رسائی نہیں۔</string>
+    <string name="safety_note">محفوظ کردہ رابطے عام طور پر بجتے ہیں۔ اگر کوئی نمبر چیک نہیں کیا جا سکتا ہے، تو وہ بھی عام طور پر بجتا ہے۔</string>
+    <string name="languages_title">زبان کی حمایت</string>
+    <string name="languages_summary">بنیادی کنٹرول انگریزی اور 22 ہندوستانی زبانوں میں دستیاب ہیں۔</string>
+    <string name="languages_scope_note">یہ بیٹا فون نمبروں کی جانچ کرتا ہے۔ یہ کالز نہیں سنتا۔ یہ کال کرنے والوں کے ساتھ کام کرتا ہے جو کسی بھی زبان میں بات کرتے ہیں۔</string>
 </resources>

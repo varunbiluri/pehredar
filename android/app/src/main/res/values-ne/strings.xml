@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">कल स्क्रिनिङ सक्षम गर्नुहोस्</string>
     <string name="role_active">पहरेदार तपाईंको कल स्क्रिनिङ एप हो।</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">सम्पर्क पहुँच दिइयो — अज्ञात नम्बरहरू साइलेन्ट गर्न उपलब्ध छ।</string>
     <string name="contacts_not_granted">सम्पर्क पहुँच दिइएको छैन — अज्ञात नम्बरहरू साइलेन्ट गर्न उपलब्ध छैन।</string>
     <string name="silence_unknown_switch">मेरो सम्पर्कमा नभएका नम्बरका कलहरू साइलेन्ट रूपमा बजाउनुहोस्</string>
+    <string name="screen_title">निजी कल सुरक्षा</string>
+    <string name="screen_subtitle">अज्ञात नम्बरहरू चुपचाप बज्छन्। तपाईँका सम्पर्कहरू यस फोनमा रहन्छन्।</string>
+    <string name="setup_title">यी दुई चरणहरू पूरा गर्नुहोस्</string>
+    <string name="protection_title">सुरक्षा</string>
+    <string name="privacy_note">यन्त्रमा मात्र। कुनै खाता छैन। कुनै विज्ञापन छैन। कुनै सञ्जाल पहुँच छैन।</string>
+    <string name="safety_note">बचत गरिएका सम्पर्कहरू सामान्यतया बज्छन्। यदि नम्बर जाँच गर्न सकिँदैन भने, यो पनि सामान्य रूपमा बज्छ।</string>
+    <string name="languages_title">भाषा समर्थन</string>
+    <string name="languages_summary">कोर नियन्त्रणहरू अङ्ग्रेजी र 22 भारतीय भाषाहरूमा उपलब्ध छन्।</string>
+    <string name="languages_scope_note">यो बिटाले फोन नम्बरहरू जाँच गर्दछ। यसले कलहरू सुन्न सक्दैन। यसले कुनै पनि भाषा बोल्ने कल गर्नेहरूसँग काम गर्दछ।</string>
 </resources>

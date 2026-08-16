@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">ಕರೆ ಸ್ಕ್ರೀನಿಂಗ್ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="role_active">ಪೆಹ್ರೇದಾರ್ ನಿಮ್ಮ ಕರೆ ಸ್ಕ್ರೀನಿಂಗ್ ಆ್ಯಪ್.</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">ಸಂಪರ್ಕ ಪ್ರವೇಶ ನೀಡಲಾಗಿದೆ — ಅಪರಿಚಿತ ಸಂಖ್ಯೆಗಳನ್ನು ಮೂಕಗೊಳಿಸುವುದು ಲಭ್ಯವಿದೆ.</string>
     <string name="contacts_not_granted">ಸಂಪರ್ಕ ಪ್ರವೇಶ ನೀಡಿಲ್ಲ — ಅಪರಿಚಿತ ಸಂಖ್ಯೆಗಳನ್ನು ಮೂಕಗೊಳಿಸುವುದು ಲಭ್ಯವಿಲ್ಲ.</string>
     <string name="silence_unknown_switch">ನನ್ನ ಸಂಪರ್ಕಗಳಲ್ಲಿ ಇಲ್ಲದ ಸಂಖ್ಯೆಗಳ ಕರೆಗಳನ್ನು ಮೂಕವಾಗಿ ರಿಂಗ್ ಮಾಡಿ</string>
+    <string name="screen_title">ಖಾಸಗಿ ಕರೆ ರಕ್ಷಣೆ</string>
+    <string name="screen_subtitle">ಅಪರಿಚಿತ ಸಂಖ್ಯೆಗಳು ಮೌನವಾಗಿ ರಿಂಗಣಿಸುತ್ತವೆ. ನಿಮ್ಮ ಸಂಪರ್ಕಗಳು ಈ ಫೋನಿನಲ್ಲಿ ಉಳಿಯುತ್ತವೆ.</string>
+    <string name="setup_title">ಈ ಎರಡು ಹಂತಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ.</string>
+    <string name="protection_title">ರಕ್ಷಣೆ</string>
+    <string name="privacy_note">ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ. ಖಾತೆಯಿಲ್ಲ. ಜಾಹೀರಾತುಗಳಿಲ್ಲ. ಜಾಲಬಂಧ ಪ್ರವೇಶವಿಲ್ಲ.</string>
+    <string name="safety_note">ಉಳಿಸಿದ ಸಂಪರ್ಕಗಳು ಸಾಮಾನ್ಯವಾಗಿ ರಿಂಗಣಿಸುತ್ತವೆ. ಒಂದು ಸಂಖ್ಯೆಯನ್ನು ಪರಿಶೀಲಿಸಲು ಸಾಧ್ಯವಾಗದಿದ್ದರೆ, ಅದು ಸಹ ಸಾಮಾನ್ಯವಾಗಿ ರಿಂಗಣಿಸುತ್ತದೆ.</string>
+    <string name="languages_title">ಭಾಷಾ ಬೆಂಬಲ</string>
+    <string name="languages_summary">ಕೋರ್ ನಿಯಂತ್ರಣಗಳು ಇಂಗ್ಲಿಷ್ ಮತ್ತು 22 ಭಾರತೀಯ ಭಾಷೆಗಳಲ್ಲಿ ಲಭ್ಯವಿವೆ.</string>
+    <string name="languages_scope_note">ಈ ಬೀಟಾ ಫೋನ್ ಸಂಖ್ಯೆಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ. ಇದು ಕರೆಗಳನ್ನು ಕೇಳುವುದಿಲ್ಲ. ಇದು ಯಾವುದೇ ಭಾಷೆಯನ್ನು ಮಾತನಾಡುವ ಕರೆ ಮಾಡುವವರೊಂದಿಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.</string>
 </resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="enable_button">કૉલ સ્ક્રીનિંગ ચાલુ કરો</string>
     <string name="role_active">પહેરેદાર એ તમારી કૉલ સ્ક્રીનિંગ એપ છે.</string>
@@ -8,4 +8,13 @@
     <string name="contacts_granted">સંપર્ક ઍક્સેસ મંજૂર — અજાણ્યા નંબરોને સાયલન્ટ કરવું ઉપલબ્ધ છે.</string>
     <string name="contacts_not_granted">સંપર્ક ઍક્સેસ મંજૂર નથી — અજાણ્યા નંબરોને સાયલન્ટ કરવું ઉપલબ્ધ નથી.</string>
     <string name="silence_unknown_switch">મારા સંપર્કોમાં ન હોય તેવા નંબરોના કૉલ સાયલન્ટ રિંગ કરો</string>
+    <string name="screen_title">ખાનગી કોલ સુરક્ષા</string>
+    <string name="screen_subtitle">અજ્ઞાત નંબરો શાંતિથી વાગી રહ્યા છે. તમારા સંપર્કો આ ફોન પર જ રહે છે.</string>
+    <string name="setup_title">આ બે પગલાંઓ પૂર્ણ કરો.</string>
+    <string name="protection_title">રક્ષણ</string>
+    <string name="privacy_note">માત્ર ઉપકરણ પર. કોઈ ખાતું નથી. કોઈ જાહેરાતો નથી. કોઈ નેટવર્ક ઍક્સેસ નથી.</string>
+    <string name="safety_note">સાચવેલા સંપર્કો સામાન્ય રીતે રિંગ કરે છે. જો કોઈ નંબર ચકાસી શકાતો નથી, તો તે પણ સામાન્ય રીતે રિંગ કરે છે.</string>
+    <string name="languages_title">ભાષા આધાર</string>
+    <string name="languages_summary">મુખ્ય નિયંત્રણો અંગ્રેજી અને 22 ભારતીય ભાષાઓમાં ઉપલબ્ધ છે.</string>
+    <string name="languages_scope_note">આ બીટા ફોન નંબર તપાસે છે. તે કોલ સાંભળતા નથી. તે કોઈપણ ભાષા બોલતા કોલ કરનારાઓ સાથે કામ કરે છે.</string>
 </resources>
