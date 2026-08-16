@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_green">#4EB28A</color>
+    <color name="surface_background">#101713</color>
+    <color name="header_secondary">#D7EADF</color>
+    <color name="text_primary">#E8F0EB</color>
+    <color name="text_secondary">#B5C2BA</color>
+    <color name="card_stroke">#35423A</color>
+    <color name="language_card">#203A2F</color>
+    <color name="status_active">#6FD3A7</color>
+    <color name="status_inactive">#FF9A88</color>
+</resources>

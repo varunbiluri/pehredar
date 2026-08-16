@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="ic_launcher_background">#1B4332</color>
+    <color name="brand_green">#175C45</color>
+    <color name="surface_background">#F5F7F5</color>
+    <color name="header_secondary">#D7EADF</color>
+    <color name="text_primary">#17211C</color>
+    <color name="text_secondary">#536159</color>
+    <color name="card_stroke">#DDE4DF</color>
+    <color name="language_card">#EAF4EE</color>
+    <color name="status_active">#137A4B</color>
+    <color name="status_inactive">#A13D2D</color>
 </resources>

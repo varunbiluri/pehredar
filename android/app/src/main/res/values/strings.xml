@@ -15,4 +15,8 @@
     <string name="protection_title" translatable="false">Protection</string>
     <string name="privacy_note" translatable="false">On-device only · No account · No ads · No network access</string>
     <string name="safety_note" translatable="false">Saved contacts always ring. If Pehredar cannot verify a caller, the call rings normally.</string>
+    <string name="languages_title" translatable="false">Language support</string>
+    <string name="languages_summary" translatable="false">Core controls are localized in English and 22 Indian languages.</string>
+    <string name="languages_list" translatable="false">English · असमীয়া · বাংলা · बड़ो · डोगरी · ગુજરાતી · हिंदी · ಕನ್ನಡ · کٲشُر · कोंकणी · मैथिली · മലയാളം · মৈতৈলোন্ · मराठी · नेपाली · ଓଡ଼ିଆ · ਪੰਜਾਬੀ · संस्कृतम् · ᱥᱟᱱᱛᱟᱲᱤ · سنڌي · தமிழ் · తెలుగు · اردو</string>
+    <string name="languages_scope_note" translatable="false">Screening works regardless of spoken language because this beta checks phone numbers, not call audio.</string>
 </resources>

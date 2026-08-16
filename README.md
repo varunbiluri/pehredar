@@ -1,6 +1,6 @@
 # Pehredar
 
-On-device call screening for Android. No server ever sees your calls,
+Private on-device call screening for Android. No server ever sees your calls,
 contacts, or audio -- everything runs locally on the phone.
 
 **Status: early alpha, and smaller in scope than earlier plans in this
@@ -72,6 +72,11 @@ Hindi, Kannada, Kashmiri, Konkani, Maithili, Malayalam, Manipuri (Meitei),
 Marathi, Nepali, Odia, Punjabi, Sanskrit, Santali, Sindhi, Tamil, Telugu,
 Urdu -- `android/app/src/main/res/values-*/strings.xml`. Android picks
 the right one automatically from the phone's system language.
+
+**What “language support” means:** the core setup, status, contacts, and
+protection controls are localized. Screening itself works for a caller
+speaking any language because the shipping app checks the incoming phone
+number against contacts; it does not listen to, transcribe, or speak on calls.
 
 The 14 higher-resource languages (Hindi, Bengali, Telugu, Marathi, Tamil,
 Kannada, Malayalam, Gujarati, Punjabi, Odia, Assamese, Urdu, Nepali,
