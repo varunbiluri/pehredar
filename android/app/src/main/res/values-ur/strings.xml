@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">کال اسکریننگ فعال کریں</string>
+    <string name="role_active">پہریدار آپ کی کال اسکریننگ ایپ ہے۔</string>
+    <string name="role_inactive">کال اسکریننگ ابھی تک فعال نہیں ہے۔</string>
+    <string name="role_unavailable">یہ ڈیوائس کال اسکریننگ ایپس کو سپورٹ نہیں کرتی۔</string>
+    <string name="contacts_button">رابطوں تک رسائی کی اجازت دیں</string>
+    <string name="contacts_granted">رابطوں تک رسائی دی گئی — نامعلوم نمبروں کو خاموش کرنا دستیاب ہے۔</string>
+    <string name="contacts_not_granted">رابطوں تک رسائی نہیں دی گئی — نامعلوم نمبروں کو خاموش کرنا دستیاب نہیں ہے۔</string>
+    <string name="silence_unknown_switch">میرے رابطوں میں نہ ہونے والے نمبروں کی کالز خاموشی سے بجائیں</string>
+</resources>

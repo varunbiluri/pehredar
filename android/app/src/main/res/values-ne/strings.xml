@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">कल स्क्रिनिङ सक्षम गर्नुहोस्</string>
+    <string name="role_active">पहरेदार तपाईंको कल स्क्रिनिङ एप हो।</string>
+    <string name="role_inactive">कल स्क्रिनिङ अझै सक्षम गरिएको छैन।</string>
+    <string name="role_unavailable">यो यन्त्रले कल स्क्रिनिङ एपहरूलाई समर्थन गर्दैन।</string>
+    <string name="contacts_button">सम्पर्कहरूको पहुँच अनुमति दिनुहोस्</string>
+    <string name="contacts_granted">सम्पर्क पहुँच दिइयो — अज्ञात नम्बरहरू साइलेन्ट गर्न उपलब्ध छ।</string>
+    <string name="contacts_not_granted">सम्पर्क पहुँच दिइएको छैन — अज्ञात नम्बरहरू साइलेन्ट गर्न उपलब्ध छैन।</string>
+    <string name="silence_unknown_switch">मेरो सम्पर्कमा नभएका नम्बरका कलहरू साइलेन्ट रूपमा बजाउनुहोस्</string>
+</resources>

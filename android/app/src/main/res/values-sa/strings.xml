@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">कॉल-स्क्रीनिंग सक्षमं कुर्वन्तु</string>
+    <string name="role_active">पहरेदारः भवतः कॉल-स्क्रीनिंग-अनुप्रयोगः अस्ति।</string>
+    <string name="role_inactive">कॉल-स्क्रीनिंग अद्यापि सक्षमं न अस्ति।</string>
+    <string name="role_unavailable">इदं उपकरणं कॉल-स्क्रीनिंग-अनुप्रयोगान् न समर्थयति।</string>
+    <string name="contacts_button">सम्पर्क-प्रवेशस्य अनुमतिं ददातु</string>
+    <string name="contacts_granted">सम्पर्क-प्रवेशः दत्तः — अज्ञात-सङ्ख्याः मौनं कर्तुं उपलभ्यते।</string>
+    <string name="contacts_not_granted">सम्पर्क-प्रवेशः न दत्तः — अज्ञात-सङ्ख्याः मौनं कर्तुं न उपलभ्यते।</string>
+    <string name="silence_unknown_switch">मम सम्पर्केषु न सन्ति याः सङ्ख्याः, तासां आह्वानं मौनेन रणतु</string>
+</resources>

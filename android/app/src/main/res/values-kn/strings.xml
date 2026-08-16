@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">ಕರೆ ಸ್ಕ್ರೀನಿಂಗ್ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="role_active">ಪೆಹ್ರೇದಾರ್ ನಿಮ್ಮ ಕರೆ ಸ್ಕ್ರೀನಿಂಗ್ ಆ್ಯಪ್.</string>
+    <string name="role_inactive">ಕರೆ ಸ್ಕ್ರೀನಿಂಗ್ ಇನ್ನೂ ಸಕ್ರಿಯಗೊಂಡಿಲ್ಲ.</string>
+    <string name="role_unavailable">ಈ ಸಾಧನವು ಕರೆ ಸ್ಕ್ರೀನಿಂಗ್ ಆ್ಯಪ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ.</string>
+    <string name="contacts_button">ಸಂಪರ್ಕಗಳ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ</string>
+    <string name="contacts_granted">ಸಂಪರ್ಕ ಪ್ರವೇಶ ನೀಡಲಾಗಿದೆ — ಅಪರಿಚಿತ ಸಂಖ್ಯೆಗಳನ್ನು ಮೂಕಗೊಳಿಸುವುದು ಲಭ್ಯವಿದೆ.</string>
+    <string name="contacts_not_granted">ಸಂಪರ್ಕ ಪ್ರವೇಶ ನೀಡಿಲ್ಲ — ಅಪರಿಚಿತ ಸಂಖ್ಯೆಗಳನ್ನು ಮೂಕಗೊಳಿಸುವುದು ಲಭ್ಯವಿಲ್ಲ.</string>
+    <string name="silence_unknown_switch">ನನ್ನ ಸಂಪರ್ಕಗಳಲ್ಲಿ ಇಲ್ಲದ ಸಂಖ್ಯೆಗಳ ಕರೆಗಳನ್ನು ಮೂಕವಾಗಿ ರಿಂಗ್ ಮಾಡಿ</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">കോൾ സ്ക്രീനിംഗ് ഓണാക്കുക</string>
+    <string name="role_active">പെഹ്‌രേദാർ ആണ് നിങ്ങളുടെ കോൾ സ്ക്രീനിംഗ് ആപ്പ്.</string>
+    <string name="role_inactive">കോൾ സ്ക്രീനിംഗ് ഇതുവരെ ഓണാക്കിയിട്ടില്ല.</string>
+    <string name="role_unavailable">ഈ ഉപകരണം കോൾ സ്ക്രീനിംഗ് ആപ്പുകളെ പിന്തുണയ്ക്കുന്നില്ല.</string>
+    <string name="contacts_button">കോൺടാക്റ്റ് ആക്സസ് അനുവദിക്കുക</string>
+    <string name="contacts_granted">കോൺടാക്റ്റ് ആക്സസ് അനുവദിച്ചു — അജ്ഞാത നമ്പറുകൾ നിശബ്ദമാക്കാൻ കഴിയും.</string>
+    <string name="contacts_not_granted">കോൺടാക്റ്റ് ആക്സസ് അനുവദിച്ചിട്ടില്ല — അജ്ഞാത നമ്പറുകൾ നിശബ്ദമാക്കാൻ കഴിയില്ല.</string>
+    <string name="silence_unknown_switch">എന്റെ കോൺടാക്റ്റുകളിൽ ഇല്ലാത്ത നമ്പറുകളുടെ കോളുകൾ നിശബ്ദമായി റിംഗ് ചെയ്യുക</string>
+</resources>

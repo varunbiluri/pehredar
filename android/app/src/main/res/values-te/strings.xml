@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">కాల్ స్క్రీనింగ్‌ను ప్రారంభించండి</string>
+    <string name="role_active">పెహ్రెదార్ మీ కాల్ స్క్రీనింగ్ యాప్.</string>
+    <string name="role_inactive">కాల్ స్క్రీనింగ్ ఇంకా ప్రారంభించబడలేదు.</string>
+    <string name="role_unavailable">ఈ పరికరం కాల్ స్క్రీనింగ్ యాప్‌లకు మద్దతు ఇవ్వదు.</string>
+    <string name="contacts_button">కాంటాక్ట్‌ల యాక్సెస్‌ను అనుమతించండి</string>
+    <string name="contacts_granted">కాంటాక్ట్ యాక్సెస్ మంజూరు చేయబడింది — తెలియని నంబర్లను నిశ్శబ్దం చేయడం అందుబాటులో ఉంది.</string>
+    <string name="contacts_not_granted">కాంటాక్ట్ యాక్సెస్ మంజూరు కాలేదు — తెలియని నంబర్లను నిశ్శబ్దం చేయడం అందుబాటులో లేదు.</string>
+    <string name="silence_unknown_switch">నా కాంటాక్ట్‌లలో లేని నంబర్ల కాల్‌లను నిశ్శబ్దంగా మోగించు</string>
+</resources>

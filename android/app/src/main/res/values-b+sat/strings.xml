@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">कॉल स्क्रीनिंग सक्रिय मे</string>
+    <string name="role_active">पहरेदार आमाग कॉल स्क्रीनिंग एप कान।</string>
+    <string name="role_inactive">कॉल स्क्रीनिंग नितोक् ओका ला सक्रिय बाङाक्।</string>
+    <string name="role_unavailable">नोवा डिभाइस कॉल स्क्रीनिंग एपको आग् उडुक बाङा।</string>
+    <string name="contacts_button">सम्पर्क रिजाक् पहुंच मे</string>
+    <string name="contacts_granted">सम्पर्क पहुंच एमा एना — बायोकोअ नाम्बार चुप् मेनाक् ओका दाराम।</string>
+    <string name="contacts_not_granted">सम्पर्क पहुंच बाङ एमा — बायोकोअ नाम्बार चुप् मेनाक् बाङाक्।</string>
+    <string name="silence_unknown_switch">इंआग् सम्पर्करे बाङ मेनाक् नाम्बार रेयाक् कॉलको चुप्ते सागुन मे</string>
+</resources>

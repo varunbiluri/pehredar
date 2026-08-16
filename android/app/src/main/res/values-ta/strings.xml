@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">அழைப்பு திரையிடலை இயக்கு</string>
+    <string name="role_active">பெஹ்ரேதார் உங்கள் அழைப்பு திரையிடல் ஆப்.</string>
+    <string name="role_inactive">அழைப்பு திரையிடல் இன்னும் இயக்கப்படவில்லை.</string>
+    <string name="role_unavailable">இந்த சாதனம் அழைப்பு திரையிடல் ஆப்களை ஆதரிக்கவில்லை.</string>
+    <string name="contacts_button">தொடர்புகள் அணுகலை அனுமதி</string>
+    <string name="contacts_granted">தொடர்பு அணுகல் வழங்கப்பட்டது — அறியப்படாத எண்களை மௌனமாக்க முடியும்.</string>
+    <string name="contacts_not_granted">தொடர்பு அணுகல் வழங்கப்படவில்லை — அறியப்படாத எண்களை மௌனமாக்க முடியாது.</string>
+    <string name="silence_unknown_switch">எனது தொடர்புகளில் இல்லாத எண்களின் அழைப்புகளை மௌனமாக ஒலிக்கச் செய்</string>
+</resources>

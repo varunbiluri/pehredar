@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">कॉल स्क्रीनिंग चालू करें</string>
+    <string name="role_active">पहरेदार आपका कॉल स्क्रीनिंग ऐप है।</string>
+    <string name="role_inactive">कॉल स्क्रीनिंग अभी सक्षम नहीं है।</string>
+    <string name="role_unavailable">यह डिवाइस कॉल स्क्रीनिंग ऐप्स को सपोर्ट नहीं करता।</string>
+    <string name="contacts_button">संपर्कों तक पहुंच की अनुमति दें</string>
+    <string name="contacts_granted">संपर्क एक्सेस दी गई — अज्ञात नंबर साइलेंस करना उपलब्ध है।</string>
+    <string name="contacts_not_granted">संपर्क एक्सेस नहीं दी गई — अज्ञात नंबर साइलेंस करना उपलब्ध नहीं है।</string>
+    <string name="silence_unknown_switch">जो नंबर मेरे संपर्कों में नहीं हैं उन्हें साइलेंट रिंग करें</string>
+</resources>

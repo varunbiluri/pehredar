@@ -63,6 +63,28 @@ No audio access, no AI model, no network calls anywhere in this path --
 it's number/contact-lookup logic only, which is all `CallScreeningService`
 legitimately supports.
 
+### Language support
+
+The app's UI (not the parked voice pipeline -- there's no AI involved
+here) is localized into English plus all 22 languages of the Indian
+Constitution's Eighth Schedule: Assamese, Bengali, Bodo, Dogri, Gujarati,
+Hindi, Kannada, Kashmiri, Konkani, Maithili, Malayalam, Manipuri (Meitei),
+Marathi, Nepali, Odia, Punjabi, Sanskrit, Santali, Sindhi, Tamil, Telugu,
+Urdu -- `android/app/src/main/res/values-*/strings.xml`. Android picks
+the right one automatically from the phone's system language.
+
+Translation confidence isn't uniform. For the higher-resource languages
+(Hindi, Bengali, Telugu, Marathi, Tamil, Kannada, Malayalam, Gujarati,
+Punjabi, Odia, Assamese, Urdu, Nepali, Sanskrit) these are a solid draft.
+For **Bodo, Dogri, Kashmiri, Konkani, Maithili, Manipuri, Santali, and
+Sindhi**, treat these as a rough first pass, not verified -- lower-resource
+languages where translation quality (mine included) is genuinely less
+reliable, and a couple of script choices were made pragmatically rather
+than by strict official standard (Manipuri in Bengali script rather than
+Meitei Mayek; Santali in Devanagari rather than Ol Chiki), because I have
+much lower confidence rendering those scripts correctly. A native speaker
+should review all eight before this ships to real users.
+
 **Untested on a real device or emulator.** This environment has the
 Android SDK and build tools but no emulator and no connected device --
 confirmed to *compile and package* into a valid APK, not confirmed to

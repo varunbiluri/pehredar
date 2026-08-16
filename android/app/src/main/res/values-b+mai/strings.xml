@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">कॉल स्क्रीनिंग चालू करू</string>
+    <string name="role_active">पहरेदार अहाँक कॉल स्क्रीनिंग ऐप अछि।</string>
+    <string name="role_inactive">कॉल स्क्रीनिंग अखन धरि चालू नहि भेल अछि।</string>
+    <string name="role_unavailable">ई डिवाइस कॉल स्क्रीनिंग ऐप सभकेँ समर्थन नहि करैत अछि।</string>
+    <string name="contacts_button">सम्पर्कक पहुँचक अनुमति दिअ\'</string>
+    <string name="contacts_granted">सम्पर्क पहुँच देल गेल — अज्ञात नम्बरकेँ शान्त करब उपलब्ध अछि।</string>
+    <string name="contacts_not_granted">सम्पर्क पहुँच नहि देल गेल — अज्ञात नम्बरकेँ शान्त करब उपलब्ध नहि अछि।</string>
+    <string name="silence_unknown_switch">हमर सम्पर्कमे नहि रहल नम्बरक कॉल शान्त रूपसँ बजाउ</string>
+</resources>

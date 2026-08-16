@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">ڪال اسڪريننگ فعال ڪريو</string>
+    <string name="role_active">پھريدار توھان جي ڪال اسڪريننگ ائپ آھي۔</string>
+    <string name="role_inactive">ڪال اسڪريننگ اڃا تائين فعال ناھي ٿي۔</string>
+    <string name="role_unavailable">ھي ڊوائيس ڪال اسڪريننگ ائپس جي سپورٽ نه ٿو ڪري۔</string>
+    <string name="contacts_button">رابطن جي رسائي جي اجازت ڏيو</string>
+    <string name="contacts_granted">رابطي جي رسائي ڏني وئي — اڻڄاتل نمبرن کي خاموش ڪرڻ موجود آھي۔</string>
+    <string name="contacts_not_granted">رابطي جي رسائي نه ڏني وئي — اڻڄاتل نمبرن کي خاموش ڪرڻ موجود ناھي۔</string>
+    <string name="silence_unknown_switch">منھنجي رابطن ۾ نه ھجندڙ نمبرن جون ڪالون خاموشيءَ سان وڄايو</string>
+</resources>

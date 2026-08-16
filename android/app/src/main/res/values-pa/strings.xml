@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">ਕਾਲ ਸਕ੍ਰੀਨਿੰਗ ਚਾਲੂ ਕਰੋ</string>
+    <string name="role_active">ਪਹਿਰੇਦਾਰ ਤੁਹਾਡੀ ਕਾਲ ਸਕ੍ਰੀਨਿੰਗ ਐਪ ਹੈ।</string>
+    <string name="role_inactive">ਕਾਲ ਸਕ੍ਰੀਨਿੰਗ ਅਜੇ ਚਾਲੂ ਨਹੀਂ ਹੈ।</string>
+    <string name="role_unavailable">ਇਹ ਡਿਵਾਈਸ ਕਾਲ ਸਕ੍ਰੀਨਿੰਗ ਐਪਾਂ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦਾ।</string>
+    <string name="contacts_button">ਸੰਪਰਕਾਂ ਦੀ ਪਹੁੰਚ ਦੀ ਆਗਿਆ ਦਿਓ</string>
+    <string name="contacts_granted">ਸੰਪਰਕ ਪਹੁੰਚ ਦਿੱਤੀ ਗਈ — ਅਣਜਾਣ ਨੰਬਰਾਂ ਨੂੰ ਸਾਈਲੈਂਟ ਕਰਨਾ ਉਪਲਬਧ ਹੈ।</string>
+    <string name="contacts_not_granted">ਸੰਪਰਕ ਪਹੁੰਚ ਨਹੀਂ ਦਿੱਤੀ ਗਈ — ਅਣਜਾਣ ਨੰਬਰਾਂ ਨੂੰ ਸਾਈਲੈਂਟ ਕਰਨਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।</string>
+    <string name="silence_unknown_switch">ਮੇਰੇ ਸੰਪਰਕਾਂ ਵਿੱਚ ਨਾ ਹੋਣ ਵਾਲੇ ਨੰਬਰਾਂ ਦੀਆਂ ਕਾਲਾਂ ਚੁੱਪਚਾਪ ਵਜਾਓ</string>
+</resources>

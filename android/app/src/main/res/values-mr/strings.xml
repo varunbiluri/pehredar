@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">कॉल स्क्रीनिंग सुरू करा</string>
+    <string name="role_active">पहरेदार हे तुमचे कॉल स्क्रीनिंग अ‍ॅप आहे.</string>
+    <string name="role_inactive">कॉल स्क्रीनिंग अद्याप सुरू केलेले नाही.</string>
+    <string name="role_unavailable">हे डिव्हाइस कॉल स्क्रीनिंग अ‍ॅप्सना सपोर्ट करत नाही.</string>
+    <string name="contacts_button">संपर्कांचा प्रवेश द्या</string>
+    <string name="contacts_granted">संपर्क प्रवेश दिला — अनोळखी क्रमांक सायलेंट करणे उपलब्ध आहे.</string>
+    <string name="contacts_not_granted">संपर्क प्रवेश दिलेला नाही — अनोळखी क्रमांक सायलेंट करणे उपलब्ध नाही.</string>
+    <string name="silence_unknown_switch">माझ्या संपर्कांत नसलेल्या क्रमांकांचे कॉल सायलेंट वाजवा</string>
+</resources>

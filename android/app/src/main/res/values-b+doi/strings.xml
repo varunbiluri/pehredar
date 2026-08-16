@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">कॉल स्क्रीनिंग शुरू करो</string>
+    <string name="role_active">पहरेदार तुंदा कॉल स्क्रीनिंग ऐप ऐ।</string>
+    <string name="role_inactive">कॉल स्क्रीनिंग हाले समर्थ नेईं कीती।</string>
+    <string name="role_unavailable">ऐ डिवाइस कॉल स्क्रीनिंग ऐप्स दा समर्थन नेईं करदा।</string>
+    <string name="contacts_button">संपर्कां दी पहुंच दी अनुमति देओ</string>
+    <string name="contacts_granted">संपर्क पहुंच दित्ती गेई — अनजान नंबरां जो शांत करना उपलब्ध ऐ।</string>
+    <string name="contacts_not_granted">संपर्क पहुंच नेईं दित्ती गेई — अनजान नंबरां जो शांत करना उपलब्ध नेईं ऐ।</string>
+    <string name="silence_unknown_switch">मेरे संपर्कां च नेईं दे नंबरां दी कॉल शांत बजाओ</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">কল স্ক্ৰীনিং অন কৰক</string>
+    <string name="role_active">পেহৰেদাৰ আপোনাৰ কল স্ক্ৰীনিং এপ।</string>
+    <string name="role_inactive">কল স্ক্ৰীনিং এতিয়াও অন কৰা হোৱা নাই।</string>
+    <string name="role_unavailable">এই ডিভাইচটোৱে কল স্ক্ৰীনিং এপ সমৰ্থন নকৰে।</string>
+    <string name="contacts_button">সম্পৰ্কসমূহৰ প্ৰৱেশাধিকাৰ দিয়ক</string>
+    <string name="contacts_granted">সম্পৰ্ক প্ৰৱেশাধিকাৰ দিয়া হ\'ল — অজ্ঞাত নম্বৰ নিমাত কৰাটো উপলব্ধ।</string>
+    <string name="contacts_not_granted">সম্পৰ্ক প্ৰৱেশাধিকাৰ দিয়া হোৱা নাই — অজ্ঞাত নম্বৰ নিমাত কৰাটো উপলব্ধ নহয়।</string>
+    <string name="silence_unknown_switch">মোৰ সম্পৰ্কত নথকা নম্বৰৰ কল নিমাতকৈ বাজিব দিয়ক</string>
+</resources>

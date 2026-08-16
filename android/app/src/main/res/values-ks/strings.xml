@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">کال اسکریننگ فعال کریو</string>
+    <string name="role_active">پہریدار چھُ توہند کال اسکریننگ ایپ۔</string>
+    <string name="role_inactive">کال اسکریننگ ہلے تام فعال چھُ نہ کرنہ آمت۔</string>
+    <string name="role_unavailable">یہ ڈیوائس کال اسکریننگ ایپَن ہنٛز حمایت چھُ نہ کران۔</string>
+    <string name="contacts_button">رابطن ہنٛز رسائی منظور کریو</string>
+    <string name="contacts_granted">رابطہ رسائی دِتہ گیہ — نامعلوم نمبر خاموش کرُن دستیاب چھُ۔</string>
+    <string name="contacts_not_granted">رابطہ رسائی چھُ نہ دِتہ گیہ — نامعلوم نمبر خاموش کرُن دستیاب چھُ نہ۔</string>
+    <string name="silence_unknown_switch">میہٕ رابطن منز چھُ نہ یم نمبر تِمن ہنٛز کالَن خاموش وجاو</string>
+</resources>

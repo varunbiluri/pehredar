@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">कल स्क्रीनिं सक्षम खालाम</string>
+    <string name="role_active">पहरेदार नोंनि कल स्क्रीनिं एप।</string>
+    <string name="role_inactive">कल स्क्रीनिं दानि सक्षम खालामनाया।</string>
+    <string name="role_unavailable">बे डिभाइसआ कल स्क्रीनिं एपखौ समर्थन खालामा।</string>
+    <string name="contacts_button">सम्पर्कनि प्रवेशखौ हाग्रा</string>
+    <string name="contacts_granted">सम्पर्क प्रवेश हागोबाय — मोनथिमोनै नम्बरखौ मोनांथि खालामनाय दं।</string>
+    <string name="contacts_not_granted">सम्पर्क प्रवेश हागोआ — मोनथिमोनै नम्बरखौ मोनांथि खालामनाय गैया।</string>
+    <string name="silence_unknown_switch">आंनि सम्पर्कआव मोनथिमोनै नम्बरनि कलखौ मोनांथिनो बाजिगोन</string>
+</resources>

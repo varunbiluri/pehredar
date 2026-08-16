@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">কল স্ক্রিনিং চালু করুন</string>
+    <string name="role_active">পেহরেদার আপনার কল স্ক্রিনিং অ্যাপ।</string>
+    <string name="role_inactive">কল স্ক্রিনিং এখনও চালু করা হয়নি।</string>
+    <string name="role_unavailable">এই ডিভাইসটি কল স্ক্রিনিং অ্যাপ সমর্থন করে না।</string>
+    <string name="contacts_button">পরিচিতি অ্যাক্সেসের অনুমতি দিন</string>
+    <string name="contacts_granted">পরিচিতি অ্যাক্সেস অনুমোদিত — অজানা নম্বর নীরব করা সম্ভব।</string>
+    <string name="contacts_not_granted">পরিচিতি অ্যাক্সেস অনুমোদিত নয় — অজানা নম্বর নীরব করা সম্ভব নয়।</string>
+    <string name="silence_unknown_switch">আমার পরিচিতিতে নেই এমন নম্বরের কল নীরবে বাজুক</string>
+</resources>

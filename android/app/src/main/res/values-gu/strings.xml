@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">કૉલ સ્ક્રીનિંગ ચાલુ કરો</string>
+    <string name="role_active">પહેરેદાર એ તમારી કૉલ સ્ક્રીનિંગ એપ છે.</string>
+    <string name="role_inactive">કૉલ સ્ક્રીનિંગ હજુ સક્ષમ નથી.</string>
+    <string name="role_unavailable">આ ડિવાઇસ કૉલ સ્ક્રીનિંગ એપ્સને સપોર્ટ કરતું નથી.</string>
+    <string name="contacts_button">સંપર્કોની ઍક્સેસની મંજૂરી આપો</string>
+    <string name="contacts_granted">સંપર્ક ઍક્સેસ મંજૂર — અજાણ્યા નંબરોને સાયલન્ટ કરવું ઉપલબ્ધ છે.</string>
+    <string name="contacts_not_granted">સંપર્ક ઍક્સેસ મંજૂર નથી — અજાણ્યા નંબરોને સાયલન્ટ કરવું ઉપલબ્ધ નથી.</string>
+    <string name="silence_unknown_switch">મારા સંપર્કોમાં ન હોય તેવા નંબરોના કૉલ સાયલન્ટ રિંગ કરો</string>
+</resources>

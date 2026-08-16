@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enable_button">কল স্ক্রীনিং হাপচিনবিয়ু</string>
+    <string name="role_active">পেহ্রেদার অদুনা নহাক্কী কল স্ক্রীনিং এপ্ পুম্নমক নি।</string>
+    <string name="role_inactive">কল স্ক্রীনিং অসি হৌজিক ফাওবা হাপ্লবা নত্তে।</string>
+    <string name="role_unavailable">মসিগী ডিভাইস অসিনা কল স্ক্রীনিং এপ্‌শিং সাপোর্ট তৌদে।</string>
+    <string name="contacts_button">কনট্যাক্ট এক্সেস ষাখৎপা য়াহল্লু</string>
+    <string name="contacts_granted">কনট্যাক্ট এক্সেস পীরে — খঙদবা নম্বর সাইলেন্ট তৌবা ঙম্মি।</string>
+    <string name="contacts_not_granted">কনট্যাক্ট এক্সেস পীদ্রে — খঙদবা নম্বর সাইলেন্ট তৌবা ঙম্দে।</string>
+    <string name="silence_unknown_switch">ঐগী কনট্যাক্তসিংদা লৈতবা নম্বরশিংগী কল সাইলেন্টনা খোঙচৎহনবিয়ু</string>
+</resources>
