@@ -106,6 +106,10 @@ run correctly. Get a real device before trusting it.
 
 **iOS is not supported and will not be**, for the reason above.
 
+## Privacy
+
+The Android app requests only contacts access and Android's user-granted call-screening role. It has no internet permission, account, ads, analytics, call recording, or phone-number logging. See [PRIVACY.md](PRIVACY.md).
+
 ## Parked research: on-device voice pipeline
 
 Before the audio-access finding above, a full on-device voice pipeline

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Pehredar</string>
+    <string name="app_name" translatable="false">Pehredar</string>
+    <string name="screen_title" translatable="false">Private call protection</string>
+    <string name="screen_subtitle" translatable="false">Unknown callers can ring silently without sending your contacts or calls anywhere.</string>
+    <string name="setup_title" translatable="false">Complete these two steps</string>
     <string name="enable_button">Enable call screening</string>
     <string name="role_active">Pehredar is your call screening app.</string>
     <string name="role_inactive">Call screening is not enabled yet.</string>
@@ -9,4 +12,7 @@
     <string name="contacts_granted">Contacts access granted — unknown-number silencing available.</string>
     <string name="contacts_not_granted">Contacts access not granted — unknown-number silencing unavailable.</string>
     <string name="silence_unknown_switch">Silently ring calls not in my contacts</string>
+    <string name="protection_title" translatable="false">Protection</string>
+    <string name="privacy_note" translatable="false">On-device only · No account · No ads · No network access</string>
+    <string name="safety_note" translatable="false">Saved contacts always ring. If Pehredar cannot verify a caller, the call rings normally.</string>
 </resources>

@@ -5,19 +5,21 @@ import android.app.role.RoleManager
 import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Bundle
-import android.widget.Button
 import android.widget.CompoundButton
-import android.widget.Switch
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.google.android.material.button.MaterialButton
+import com.google.android.material.materialswitch.MaterialSwitch
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var statusText: TextView
     private lateinit var contactsStatusText: TextView
-    private lateinit var silenceSwitch: Switch
+    private lateinit var silenceSwitch: MaterialSwitch
+    private lateinit var enableButton: MaterialButton
+    private lateinit var contactsButton: MaterialButton
 
     private val requestRoleLauncher =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
@@ -37,8 +39,11 @@ class MainActivity : AppCompatActivity() {
         contactsStatusText = findViewById(R.id.contactsStatusText)
         silenceSwitch = findViewById(R.id.silenceSwitch)
 
-        findViewById<Button>(R.id.enableButton).setOnClickListener { requestCallScreeningRole() }
-        findViewById<Button>(R.id.contactsButton).setOnClickListener {
+        enableButton = findViewById(R.id.enableButton)
+        contactsButton = findViewById(R.id.contactsButton)
+
+        enableButton.setOnClickListener { requestCallScreeningRole() }
+        contactsButton.setOnClickListener {
             requestContactsPermissionLauncher.launch(Manifest.permission.READ_CONTACTS)
         }
 
@@ -80,10 +85,15 @@ class MainActivity : AppCompatActivity() {
         val roleHeld = roleManager.isRoleAvailable(RoleManager.ROLE_CALL_SCREENING) &&
             roleManager.isRoleHeld(RoleManager.ROLE_CALL_SCREENING)
         statusText.text = getString(if (roleHeld) R.string.role_active else R.string.role_inactive)
+        enableButton.isEnabled = !roleHeld
+        enableButton.text = getString(R.string.enable_button)
 
+        val contactsGranted = hasContactsPermission()
         contactsStatusText.text = getString(
-            if (hasContactsPermission()) R.string.contacts_granted else R.string.contacts_not_granted
+            if (contactsGranted) R.string.contacts_granted else R.string.contacts_not_granted
         )
-        silenceSwitch.isEnabled = hasContactsPermission()
+        contactsButton.isEnabled = !contactsGranted
+        contactsButton.text = getString(R.string.contacts_button)
+        silenceSwitch.isEnabled = contactsGranted && roleHeld
     }
 }

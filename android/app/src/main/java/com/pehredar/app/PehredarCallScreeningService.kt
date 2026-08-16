@@ -6,7 +6,6 @@ import android.provider.ContactsContract
 import android.telecom.Call
 import android.telecom.CallScreeningService
 import android.telecom.CallScreeningService.CallResponse
-import android.util.Log
 import androidx.core.content.ContextCompat
 
 /**
@@ -29,12 +28,16 @@ import androidx.core.content.ContextCompat
 class PehredarCallScreeningService : CallScreeningService() {
 
     override fun onScreenCall(callDetails: Call.Details) {
+        if (callDetails.callDirection != Call.Details.DIRECTION_INCOMING) return
+
         val number = callDetails.handle?.schemeSpecificPart
 
         val silenceUnknown = Settings.isSilenceUnknownNumbersEnabled(this)
-        val shouldSilence = silenceUnknown && number != null && !isKnownContact(number)
-
-        Log.d(TAG, "Incoming call from ${number ?: "unknown"} -- silence=$shouldSilence (setting=$silenceUnknown)")
+        val contactStatus = when {
+            number.isNullOrBlank() -> ContactStatus.UNAVAILABLE
+            else -> if (isKnownContact(number)) ContactStatus.KNOWN else ContactStatus.UNKNOWN
+        }
+        val shouldSilence = ScreeningPolicy.shouldSilence(silenceUnknown, contactStatus)
 
         val response = CallResponse.Builder()
             .setDisallowCall(false)
@@ -58,9 +61,5 @@ class PehredarCallScreeningService : CallScreeningService() {
         return contentResolver.query(uri, arrayOf(ContactsContract.PhoneLookup._ID), null, null, null)?.use { cursor ->
             cursor.moveToFirst()
         } ?: true
-    }
-
-    private companion object {
-        const val TAG = "PehredarScreening"
     }
 }

@@ -22,5 +22,7 @@ android/.kotlin/
 android/build/
 android/app/build/
 android/local.properties
+android/keystore.properties
+android/release-keystore/
 *.apk
 *.aab
