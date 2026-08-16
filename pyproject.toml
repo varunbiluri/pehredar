@@ -7,7 +7,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "faster-whisper>=1.2.1",
-    "huggingface-hub>=0.23.2,<1.0",
+    "huggingface-hub>=0.23.2,<2.0",
     "llama-cpp-python>=0.3.34",
     "piper-tts>=1.6.1",
     # Runtime translation leg (LLM output -> caller's language). Pinned to
@@ -16,7 +16,7 @@ dependencies = [
     # dropped transformers.onnx module). See finetune/ for why this conflicts
     # with the newer transformers the (now-parked) Gemma fine-tuning used.
     "torch>=2.13.0",
-    "transformers==4.44.2",
+    "transformers==5.15.0",
     "indictranstoolkit>=1.1.1",
     "sentencepiece>=0.2.2",
 ]
