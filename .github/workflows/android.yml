@@ -21,6 +21,8 @@ jobs:
           distribution: temurin
           java-version: "17"
           cache: gradle
+      - name: Validate Gradle wrapper
+        uses: gradle/actions/wrapper-validation@4733eaac7c1b0da527e4206b7671e0061de1ce37 # v6
       - run: chmod +x gradlew
       - name: Check all 22 localizations
         working-directory: .
@@ -28,4 +30,4 @@ jobs:
       - name: Check repository policies and links
         working-directory: .
         run: python3 scripts/check_repository.py
-      - run: ./gradlew testDebugUnitTest lintDebug assembleDebug
+      - run: ./gradlew testDebugUnitTest lintDebug assembleDebug assembleRelease

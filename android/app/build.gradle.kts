@@ -21,8 +21,8 @@ android {
         // CallScreeningService (android.telecom) requires API 29 (Android 10).
         minSdk = 29
         targetSdk = 35
-        versionCode = 4
-        versionName = "1.0.0-beta.3"
+        versionCode = 5
+        versionName = "1.0.0-beta.4"
     }
 
     signingConfigs {

@@ -13,6 +13,7 @@ REQUIRED = {
     "TRANSLATIONS.md", "THIRD_PARTY_NOTICES.md", "DATASET.md",
     ".github/CODEOWNERS", ".github/PULL_REQUEST_TEMPLATE.md",
     ".github/dependabot.yml",
+    ".github/workflows/release.yml",
 }
 LINK = re.compile(r"(?<!!)\[[^]]+\]\(([^)]+)\)")
 ACTION = re.compile(r"^\s*-?\s*uses:\s*([^\s#]+)", re.MULTILINE)

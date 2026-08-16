@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.0-beta.4] - 2026-08-16
+
+### Added
+
+- Automated signed APK/AAB releases with checksums and build provenance.
+- Gradle-wrapper validation and release-build verification in CI.
+- Complete open-source governance and security baseline.
+
 All notable changes are documented here. Pehredar follows semantic versioning
 for user-facing releases while the product remains in beta.
 
