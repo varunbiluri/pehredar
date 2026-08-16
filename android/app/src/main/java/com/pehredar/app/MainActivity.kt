@@ -1,19 +1,31 @@
 package com.pehredar.app
 
+import android.Manifest
 import android.app.role.RoleManager
 import android.content.Context
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.widget.Button
+import android.widget.CompoundButton
+import android.widget.Switch
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var statusText: TextView
+    private lateinit var contactsStatusText: TextView
+    private lateinit var silenceSwitch: Switch
 
     private val requestRoleLauncher =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
+            updateStatus()
+        }
+
+    private val requestContactsPermissionLauncher =
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) {
             updateStatus()
         }
 
@@ -22,7 +34,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         statusText = findViewById(R.id.statusText)
+        contactsStatusText = findViewById(R.id.contactsStatusText)
+        silenceSwitch = findViewById(R.id.silenceSwitch)
+
         findViewById<Button>(R.id.enableButton).setOnClickListener { requestCallScreeningRole() }
+        findViewById<Button>(R.id.contactsButton).setOnClickListener {
+            requestContactsPermissionLauncher.launch(Manifest.permission.READ_CONTACTS)
+        }
+
+        silenceSwitch.isChecked = Settings.isSilenceUnknownNumbersEnabled(this)
+        silenceSwitch.setOnCheckedChangeListener { _: CompoundButton, checked: Boolean ->
+            Settings.setSilenceUnknownNumbersEnabled(this, checked)
+        }
 
         updateStatus()
     }
@@ -48,10 +71,19 @@ class MainActivity : AppCompatActivity() {
         requestRoleLauncher.launch(roleManager.createRequestRoleIntent(RoleManager.ROLE_CALL_SCREENING))
     }
 
+    private fun hasContactsPermission(): Boolean =
+        ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) ==
+            PackageManager.PERMISSION_GRANTED
+
     private fun updateStatus() {
         val roleManager = roleManager()
-        val held = roleManager.isRoleAvailable(RoleManager.ROLE_CALL_SCREENING) &&
+        val roleHeld = roleManager.isRoleAvailable(RoleManager.ROLE_CALL_SCREENING) &&
             roleManager.isRoleHeld(RoleManager.ROLE_CALL_SCREENING)
-        statusText.text = getString(if (held) R.string.role_active else R.string.role_inactive)
+        statusText.text = getString(if (roleHeld) R.string.role_active else R.string.role_inactive)
+
+        contactsStatusText.text = getString(
+            if (hasContactsPermission()) R.string.contacts_granted else R.string.contacts_not_granted
+        )
+        silenceSwitch.isEnabled = hasContactsPermission()
     }
 }

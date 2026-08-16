@@ -5,4 +5,8 @@
     <string name="role_active">Pehredar is your call screening app.</string>
     <string name="role_inactive">Call screening is not enabled yet.</string>
     <string name="role_unavailable">This device does not support call screening apps.</string>
+    <string name="contacts_button">Allow contacts access</string>
+    <string name="contacts_granted">Contacts access granted — unknown-number silencing available.</string>
+    <string name="contacts_not_granted">Contacts access not granted — unknown-number silencing unavailable.</string>
+    <string name="silence_unknown_switch">Silently ring calls not in my contacts</string>
 </resources>

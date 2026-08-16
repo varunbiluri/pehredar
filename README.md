@@ -1,66 +1,94 @@
 # Pehredar
 
-On-device AI call screening. No server ever sees your calls, your audio, or
-your transcripts -- everything runs locally on the phone. Starting with
-Indian languages: English, Hindi, Hindi-English (Hinglish) code-switching,
-Malayalam, Marathi, and Telugu, with more to follow as on-device voices
-become available (see [Language coverage](#language-coverage)).
+On-device call screening for Android. No server ever sees your calls,
+contacts, or audio -- everything runs locally on the phone.
 
-**Status: early alpha.** The desktop pipeline is validated end-to-end with
-known quality gaps; the Android app is a compiled, installable skeleton
-that requests the call-screening role but does not yet run the AI pipeline
-during a real call. See [Current limitations](#current-limitations) before
-assuming this does more than it does.
+**Status: early alpha, and smaller in scope than earlier plans in this
+repo's history.** The original goal was AI that answers and talks to
+callers on your behalf, fully on-device. That turned out not to be
+legitimately buildable -- see
+[Why no live AI conversation](#why-no-live-ai-conversation) below. What
+actually ships: calls from unknown numbers ring silently instead of
+interrupting you, calls from contacts always ring normally. A validated
+on-device voice AI pipeline (speech-to-text, an LLM, translation,
+text-to-speech, across five languages) exists in this repo as
+[parked research](#parked-research-on-device-voice-pipeline) -- real,
+tested code, just not wired into the shipping app, because there's
+currently no legitimate way to give it access to live call audio.
 
-## How it works
+## Why no live AI conversation
 
-A real call screener speaks first -- Pehredar answers with a fixed,
-scripted greeting asking who's calling and why (not LLM-generated: it's
-not a response to anything yet, so there's nothing to generate). Only
-once the caller replies does the AI pipeline run:
+Answering a call and speaking to the caller requires access to the live
+call audio stream (to listen and to inject synthesized speech). On
+**Android**, that requires the `CAPTURE_AUDIO_OUTPUT` permission, which
+is restricted to privileged system apps (Google's own apps, or apps
+pre-loaded by the device manufacturer) -- not available to a regular
+third-party app, including one set as the default dialer. `CallScreeningService`,
+which a third-party app *can* use, only returns an allow/reject/silence
+decision before the call connects; it has no audio access at all. Real
+apps that offer "AI answers your calls" (Call Assistant AI, Equal AI, and
+similar) work by **forwarding your calls to a phone number they control**,
+where their own server-side infrastructure handles the conversation --
+architecturally a cloud service, not an on-device one, regardless of how
+it's marketed.
 
-```
-caller rings -> Pehredar answers with scripted greeting (no AI, owner's chosen language)
-             -> caller replies (any supported language)
-             -> speech-to-text, translated straight to English + language detected
-             -> LLM acknowledges, in English
-             -> translated back into the caller's detected language
-             -> text-to-speech, in that language (if a voice exists -- see below)
-```
+On **iOS**, the same outcome for a different reason: Apple provides no
+public API for a third-party app to answer or speak during a live
+cellular call at all. CallKit covers call blocking/directory lookups
+only.
 
-Two design choices worth explaining:
+Both platforms reserve this capability to themselves or to
+manufacturer-privileged apps. There is no engineering path around this
+for an independent app that wants to stay on-device and server-free --
+that combination (live call audio + third-party + no server) doesn't
+exist as a legitimate option on either platform today.
 
-1. **The greeting is scripted, not generated.** "Ask who's calling and why"
-   turned out to be an unreliable *generative* task at small on-device
-   model sizes, no matter how it was prompted (see
-   [Model research](#model-research)) -- scripting it removes the failure
-   mode entirely, leaving the LLM only the narrower job it was actually
-   consistently decent at: acknowledging what the caller just said.
-2. **The LLM only ever reasons in English**, regardless of what language
-   the caller speaks. Rather than needing one small model to be reliably
-   fluent in many Indian languages (which testing showed was a real
-   problem -- see below), the caller's speech is translated to English
-   by Whisper's built-in translate mode, and the English reply is
-   translated back to the caller's language by a dedicated translation
-   model (IndicTrans2). Translation, not generation, carries the
-   multilingual burden.
+## What the app actually does
 
-## Repository layout
-
-```
-prototype/    Working STT -> LLM -> TTS pipeline (Python, desktop-validated)
-data/         Seed call-screening dialogue dataset (63 examples, 3 languages)
-finetune/     LoRA fine-tuning scripts (train/merge/quantize) -- see notes below
-android/      Android app (Kotlin/Gradle) -- compiles; AI pipeline not wired in yet
+```bash
+cd android
+./gradlew assembleDebug
 ```
 
-## Desktop prototype
+`PehredarCallScreeningService` requests the `CALL_SCREENING` role and,
+for each incoming call:
+- If the number is a saved contact -> rings normally.
+- If not, and the user has enabled "silence unknown numbers" in the app
+  -> rings silently (not blocked -- still reaches voicemail/call log,
+  just doesn't interrupt).
+- If contacts permission isn't granted, or the setting is off -> rings
+  normally, unchanged. Fails open, not closed.
+
+No audio access, no AI model, no network calls anywhere in this path --
+it's number/contact-lookup logic only, which is all `CallScreeningService`
+legitimately supports.
+
+**Untested on a real device or emulator.** This environment has the
+Android SDK and build tools but no emulator and no connected device --
+confirmed to *compile and package* into a valid APK, not confirmed to
+run correctly. Get a real device before trusting it.
+
+**iOS is not supported and will not be**, for the reason above.
+
+## Parked research: on-device voice pipeline
+
+Before the audio-access finding above, a full on-device voice pipeline
+was built and validated on desktop (not on a phone) -- kept in this repo
+because it's real, tested work, in case a legitimate use for it emerges
+(e.g. if voicemail-file-after-the-fact access turns out to be more
+permissive than live-call access -- unresearched).
 
 ```bash
 uv sync
 uv run python prototype/pipeline.py --text "Hi, this is Meera from HDFC about a loan offer" --owner-language te
 uv run python prototype/pipeline.py --owner-language hindi path/to/caller.wav
 ```
+
+Call flow: a scripted greeting (not LLM-generated -- see
+[Model research](#model-research) for why) asks who's calling and why;
+the reply is transcribed and translated to English by Whisper; an LLM
+(English-only) generates a brief acknowledgment; that's translated back
+into the caller's detected language; Piper speaks it.
 
 Models used (not committed to git -- see `models/` after running, gitignored):
 - **STT + translation-to-English**: faster-whisper `tiny` (multilingual, `task="translate"`)
@@ -83,8 +111,8 @@ unverified search summary, was wrong and has been corrected):
 | Tamil, Kannada, Gujarati, Punjabi, Odia, Assamese, and the rest of the 22 | Yes | **No voice exists** | No |
 
 For a caller whose detected language has no Piper voice, the pipeline
-currently falls back to speaking the reply in English rather than silently
-failing or mismatching script/voice.
+falls back to speaking the reply in English rather than silently failing
+or mismatching script/voice.
 
 ### IndicTrans2 compatibility notes
 
@@ -103,7 +131,7 @@ this environment. That's why the caller-to-English leg uses Whisper's
 built-in translate mode instead; it turned out to make that model
 unnecessary anyway.
 
-## Model research
+### Model research
 
 Gemma 3 270M was tried first to fit a ~500MB total budget, but neither
 zero-shot prompting, few-shot prompting, nor three rounds of LoRA
@@ -119,51 +147,26 @@ Llama 3.2 1B fixed the "ask who/why" failure zero-shot, which is why the
 budget was revised to ~1GB. It's not fully reliable either -- acknowledgment
 quality was inconsistent when it had to handle Hindi directly. That's the
 real reason the LLM was moved to English-only reasoning with translation on
-both sides (see [How it works](#how-it-works)) rather than just a language
-scope decision -- it also fixed the reliability gap, since Llama 3.2 1B
-only officially supports English and Hindi among Indian languages anyway,
-and translation-in/translation-out sidesteps needing it to be good at any
-of the rest.
+both sides rather than just a language scope decision -- it also fixed the
+reliability gap, since Llama 3.2 1B only officially supports English and
+Hindi among Indian languages anyway, and translation-in/translation-out
+sidesteps needing it to be good at any of the rest.
 
-## Android app
+### Latency (measured, desktop, not phone)
 
-```bash
-cd android
-./gradlew assembleDebug
+Not real-time: 3.7-4.8s end-to-end per turn in testing, dominated by
+each pipeline stage reloading its model from disk on every call (a CLI
+script, not a persistent service). A phone would likely be slower before
+any optimization, not faster.
+
+## Repository layout
+
 ```
-
-Requests the `CALL_SCREENING` role via `RoleManager` and registers a
-`CallScreeningService`. Currently applies a stub allow-all policy --
-see [Current limitations](#current-limitations).
-
-## Current limitations
-
-- **The Android app does not run the AI pipeline yet.** `PehredarCallScreeningService`
-  allows every call through unchanged. Wiring in the validated STT/LLM/TTS
-  pipeline requires native (NDK) Android builds of llama.cpp, whisper.cpp,
-  and onnxruntime, plus handling live in-call audio access -- none of that
-  is done.
-- **Untested on a real device or emulator.** This environment has the
-  Android SDK and build tools but no NDK, no emulator, and no connected
-  device -- the app is confirmed to *compile and package* into a valid
-  APK, not confirmed to run correctly.
-- **iOS is not supported and will not be.** Apple provides no public API
-  for a third-party app to answer or speak during a live cellular call --
-  CallKit covers call blocking/directory lookups only. There is no way to
-  build this specific product on iOS through the App Store.
-- **Audio output works end-to-end for English, Hindi, Malayalam, Marathi,
-  and Telugu.** Translation text covers all 22 scheduled Indian languages,
-  but Tamil, Kannada, Gujarati, Punjabi, Odia, Assamese, and the rest have
-  no Piper voice available (see [Language coverage](#language-coverage)) --
-  those callers currently get an English-language reply, not silence, but
-  not their own language either.
-- **STT quality is a known weak point.** faster-whisper `tiny` has
-  hallucinated words in testing (e.g. mistranslating "ज़रूरी"/urgent as
-  "village"); the confidence gate catches the worst cases and falls back
-  to "could you repeat that?" rather than acting on garbled input, but
-  doesn't fix the underlying transcription/translation quality.
-- **Quality is validated on roughly a dozen hand-picked utterances per
-  language**, not a real evaluation set.
+android/      The actual shipping app (Kotlin/Gradle) -- contact-based silent screening
+prototype/    Parked: STT -> LLM -> translate -> TTS pipeline (Python, desktop-only)
+data/         Parked: seed call-screening dialogue dataset
+finetune/     Parked: LoRA fine-tuning scripts and findings
+```
 
 ## License
 

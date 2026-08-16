@@ -3,6 +3,7 @@
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -22,11 +23,13 @@
         <!--
           Requires the CALL_SCREENING role (requested at runtime via
           RoleManager in MainActivity) before the system will route calls
-          here. onScreenCall() currently applies a stub allow all policy.
-          The STT to LLM to TTS pipeline validated in prototype/pipeline.py
-          is not yet wired in; that needs native (NDK) builds of
-          llama.cpp, whisper.cpp, and onnxruntime for Android, which is
-          future work, not part of this skeleton.
+          here. Silently rings (does not block) calls from numbers not in
+          the user's contacts, if the user has opted into that in Settings.
+          Live AI conversation during calls is not implemented and is not
+          planned: Android reserves raw call audio access (CAPTURE_AUDIO_OUTPUT)
+          to privileged system apps, so a third-party app cannot legitimately
+          answer and speak during a real call. See README "Why no live AI
+          conversation" for the full explanation and what was tried.
         -->
         <service
             android:name=".PehredarCallScreeningService"
