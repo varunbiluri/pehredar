@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enable_button">কল স্ক্রীনিং হাপচিনবিয়ু</string>
-    <string name="role_active">পেহ্রেদার অদুনা নহাক্কী কল স্ক্রীনিং এপ্ পুম্নমক নি।</string>
-    <string name="role_inactive">কল স্ক্রীনিং অসি হৌজিক ফাওবা হাপ্লবা নত্তে।</string>
-    <string name="role_unavailable">মসিগী ডিভাইস অসিনা কল স্ক্রীনিং এপ্‌শিং সাপোর্ট তৌদে।</string>
-    <string name="contacts_button">কনট্যাক্ট এক্সেস ষাখৎপা য়াহল্লু</string>
-    <string name="contacts_granted">কনট্যাক্ট এক্সেস পীরে — খঙদবা নম্বর সাইলেন্ট তৌবা ঙম্মি।</string>
-    <string name="contacts_not_granted">কনট্যাক্ট এক্সেস পীদ্রে — খঙদবা নম্বর সাইলেন্ট তৌবা ঙম্দে।</string>
-    <string name="silence_unknown_switch">ঐগী কনট্যাক্তসিংদা লৈতবা নম্বরশিংগী কল সাইলেন্টনা খোঙচৎহনবিয়ু</string>
+    <string name="enable_button">কল স্ক্রিনিং সক্রিয় করুন</string>
+    <string name="role_active">পেহরেদার অসি অদোমগী কোল স্ক্রীনিং এপনি।</string>
+    <string name="role_inactive">কোল স্ক্রিনিং এখনও সক্রিয় করা হয়নি।</string>
+    <string name="role_unavailable">ডিভাইসটি কল স্ক্রিনিং অ্যাপ্লিকেশনগুলিকে সমর্থন করে না।</string>
+    <string name="contacts_button">কনটেক্টশিং এক্সেস তৌবা য়াহনবা</string>
+    <string name="contacts_granted">কন্তেক্তশিং এক্সেস তৌবা য়াহনখ্রে। খঙবা ঙমদবা নম্বরশিং সাইলেন্স তৌবা য়াহনখ্রে।</string>
+    <string name="contacts_not_granted">কন্তেক্তশিং এক্সেস তৌবা অয়াবা পীদে। খঙবা ঙমদবা নম্বরশিং সাইলেন্স তৌবা ঙমদে।</string>
+    <string name="silence_unknown_switch">ঐগী কন্তেক্তশিংদা নোত কলশিং নিংথিনা রিং তৌ।</string>
 </resources>

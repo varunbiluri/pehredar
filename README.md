@@ -73,17 +73,31 @@ Marathi, Nepali, Odia, Punjabi, Sanskrit, Santali, Sindhi, Tamil, Telugu,
 Urdu -- `android/app/src/main/res/values-*/strings.xml`. Android picks
 the right one automatically from the phone's system language.
 
-Translation confidence isn't uniform. For the higher-resource languages
-(Hindi, Bengali, Telugu, Marathi, Tamil, Kannada, Malayalam, Gujarati,
-Punjabi, Odia, Assamese, Urdu, Nepali, Sanskrit) these are a solid draft.
-For **Bodo, Dogri, Kashmiri, Konkani, Maithili, Manipuri, Santali, and
-Sindhi**, treat these as a rough first pass, not verified -- lower-resource
-languages where translation quality (mine included) is genuinely less
-reliable, and a couple of script choices were made pragmatically rather
-than by strict official standard (Manipuri in Bengali script rather than
-Meitei Mayek; Santali in Devanagari rather than Ol Chiki), because I have
-much lower confidence rendering those scripts correctly. A native speaker
-should review all eight before this ships to real users.
+The 14 higher-resource languages (Hindi, Bengali, Telugu, Marathi, Tamil,
+Kannada, Malayalam, Gujarati, Punjabi, Odia, Assamese, Urdu, Nepali,
+Sanskrit) were translated directly. For **Bodo, Dogri, Kashmiri, Konkani,
+Maithili, Manipuri, Santali, and Sindhi**, translations were regenerated
+through IndicTrans2 (`scripts/translate_low_resource_strings.py`) rather
+than by direct translation -- a specialized model AI4Bharat built
+specifically to cover exactly these underserved languages properly,
+rather than relying on weaker general-purpose knowledge of them. That's
+a real, substantive quality improvement over the first pass, not just a
+caveat -- and it settled the two earlier script uncertainties with the
+model's own documented support list: Manipuri in Bengali script (`mni_Beng`)
+and Kashmiri/Sindhi in Perso-Arabic script (`kas_Arab`/`snd_Arab`) are
+confirmed-valid options; Santali, however, turned out to have **no**
+Devanagari option in IndicTrans2 at all -- only Ol Chiki (`sat_Olck`),
+so that's what ships now, correcting the earlier Devanagari fallback.
+
+That said, "specialized model" isn't the same as "verified." Machine
+translation quality for genuinely low-resource languages is documented
+to lag behind high-resource languages even with purpose-built systems,
+this is domain-specific app-UI text rather than the general text these
+models are typically evaluated on, and the brand name ("Pehredar") had
+to be manually corrected in all eight after the model transliterated it
+inconsistently (e.g. "PEREDAR"). A native speaker should still review
+these eight before shipping to real users -- just from a stronger
+starting point than before.
 
 **Untested on a real device or emulator.** This environment has the
 Android SDK and build tools but no emulator and no connected device --

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enable_button">कॉल स्क्रीनिंग सक्रिय मे</string>
-    <string name="role_active">पहरेदार आमाग कॉल स्क्रीनिंग एप कान।</string>
-    <string name="role_inactive">कॉल स्क्रीनिंग नितोक् ओका ला सक्रिय बाङाक्।</string>
-    <string name="role_unavailable">नोवा डिभाइस कॉल स्क्रीनिंग एपको आग् उडुक बाङा।</string>
-    <string name="contacts_button">सम्पर्क रिजाक् पहुंच मे</string>
-    <string name="contacts_granted">सम्पर्क पहुंच एमा एना — बायोकोअ नाम्बार चुप् मेनाक् ओका दाराम।</string>
-    <string name="contacts_not_granted">सम्पर्क पहुंच बाङ एमा — बायोकोअ नाम्बार चुप् मेनाक् बाङाक्।</string>
-    <string name="silence_unknown_switch">इंआग् सम्पर्करे बाङ मेनाक् नाम्बार रेयाक् कॉलको चुप्ते सागुन मे</string>
+    <string name="enable_button">ᱠᱚᱞ ᱥᱠᱨᱤᱱᱤᱝ ᱮᱥᱮᱨ ᱢᱮ ᱾</string>
+    <string name="role_active">Pehredar ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱟᱢᱟᱜ ᱠᱚᱞ ᱥᱠᱨᱤᱱᱤᱝ ᱮᱯ ᱾</string>
+    <string name="role_inactive">ᱠᱚᱞ ᱥᱠᱨᱤᱱᱤᱝ ᱫᱚ ᱱᱤᱛᱦᱚᱸ ᱵᱚᱱᱚᱫᱚᱞ ᱵᱟᱝ ᱦᱩᱭ ᱟᱠᱟᱱᱟ ᱾</string>
+    <string name="role_unavailable">ᱱᱚᱶᱟ ᱰᱩᱭᱤᱥ ᱫᱚ ᱠᱚᱞ ᱥᱠᱨᱤᱱᱤᱝ ᱮᱯ ᱠᱚ ᱜᱚᱲᱚ ᱵᱟᱝ ᱮᱢᱼᱟ ᱾</string>
+    <string name="contacts_button">ᱡᱳᱜᱟᱡᱳᱜ ᱠᱚ ᱧᱟᱢ ᱨᱮᱭᱟᱜ ᱪᱷᱟᱹᱲ ᱢᱮ ᱾</string>
+    <string name="contacts_granted">ᱡᱳᱜᱟᱡᱳᱜ ᱠᱚ ᱧᱟᱢ ᱨᱮᱭᱟᱜ ᱪᱷᱟᱹᱲ ᱮᱢ ᱦᱩᱭ ᱟᱠᱟᱱᱟ ᱾ ᱵᱟᱝ ᱵᱟᱰᱟᱭ ᱱᱟᱢᱵᱟᱨ ᱠᱚ ᱥᱳᱯᱨᱳᱫ ᱫᱚᱦᱚ ᱨᱮᱭᱟᱜ ᱩᱯᱟᱹᱭ ᱢᱮᱱᱟᱜᱼᱟ ᱾</string>
+    <string name="contacts_not_granted">ᱡᱳᱜᱟᱡᱳᱜ ᱠᱚ ᱧᱟᱢ ᱨᱮᱭᱟᱜ ᱪᱷᱟᱹᱲ ᱵᱟᱝ ᱮᱢ ᱟᱠᱟᱱᱟ ᱾ ᱵᱟᱝ ᱵᱟᱰᱟᱭ ᱱᱟᱢᱵᱟᱨ ᱠᱚ ᱵᱚᱱᱚᱫᱚᱞ ᱠᱚᱨᱟᱣ ᱵᱟᱝ ᱧᱟᱢᱚᱜᱼᱟ ᱾</string>
+    <string name="silence_unknown_switch">ᱤᱧᱟᱹᱜ ᱡᱳᱜᱟᱡᱳᱜ ᱨᱮ ᱵᱟᱝ, ᱢᱮᱱ ᱠᱟᱛᱮ ᱠᱚᱞ ᱢᱮ ᱾</string>
 </resources>

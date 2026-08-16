@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="enable_button">ڪال اسڪريننگ فعال ڪريو</string>
-    <string name="role_active">پھريدار توھان جي ڪال اسڪريننگ ائپ آھي۔</string>
-    <string name="role_inactive">ڪال اسڪريننگ اڃا تائين فعال ناھي ٿي۔</string>
-    <string name="role_unavailable">ھي ڊوائيس ڪال اسڪريننگ ائپس جي سپورٽ نه ٿو ڪري۔</string>
-    <string name="contacts_button">رابطن جي رسائي جي اجازت ڏيو</string>
-    <string name="contacts_granted">رابطي جي رسائي ڏني وئي — اڻڄاتل نمبرن کي خاموش ڪرڻ موجود آھي۔</string>
-    <string name="contacts_not_granted">رابطي جي رسائي نه ڏني وئي — اڻڄاتل نمبرن کي خاموش ڪرڻ موجود ناھي۔</string>
-    <string name="silence_unknown_switch">منھنجي رابطن ۾ نه ھجندڙ نمبرن جون ڪالون خاموشيءَ سان وڄايو</string>
+    <string name="enable_button">ڪال اسڪریننگ فعال ڪریو</string>
+    <string name="role_active">پھريدار توہان جی ڪال اسڪریننگ ایپ آھی</string>
+    <string name="role_inactive">ڪال اسڪریننگ اڃا تائین فعال نہ آھی</string>
+    <string name="role_unavailable">ہی ڊوائس ڪال اسڪریننگ ایپس کی سپورٽ نٿو ڪری</string>
+    <string name="contacts_button">رابطی جی پہچ جی اجازت ڏیو</string>
+    <string name="contacts_granted">رابطی جی پہچ ڏنی وئی آھی۔ نامعلوم نمبرن کی خاموش ڪرڻ دستیاب آھی</string>
+    <string name="contacts_not_granted">رابطی جی پہچ نہ ڏنی وئی آھی۔ نامعلوم نمبرن کی خاموش ڪرڻ دستیاب ناہی</string>
+    <string name="silence_unknown_switch">خاموشیء سان ڪال ڪرڻ منھنجی رابطی ۾ نہ آھی</string>
 </resources>
