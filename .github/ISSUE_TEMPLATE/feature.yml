@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose an improvement consistent with Pehredar's privacy boundary.
+title: "[Feature]: "
+labels: [enhancement, needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the user problem, not only a preferred solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Project boundaries
+      options:
+        - label: This does not require bypassing Android security or accessing live cellular-call audio.
+          required: true
+        - label: I described any permission, network, privacy, battery, accessibility, and localization impact.
+          required: true

@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a reproducible Pehredar problem without personal call data.
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for reporting. Never include phone numbers, contacts, call logs, recordings, or other personal data."
+  - type: input
+    id: version
+    attributes:
+      label: Pehredar version
+      placeholder: v1.0.0-beta.3
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: Samsung Galaxy A54, Android 15, dual SIM
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Was Pehredar selected as the call-screening app?
+      options: ["Yes", "No", "Unsure"]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps using synthetic details
+      placeholder: "1. Enable… 2. Call from a test number… 3. Observe…"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed all phone numbers, contacts, call data, recordings, and secrets.
+          required: true
+        - label: I searched existing issues and tested the latest beta.
+          required: true

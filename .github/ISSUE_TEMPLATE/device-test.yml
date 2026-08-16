@@ -1,0 +1,38 @@
+name: Device test result
+description: Contribute privacy-safe compatibility evidence from a physical phone.
+title: "[Device]: "
+labels: [device-test]
+body:
+  - type: input
+    id: device
+    attributes:
+      label: Manufacturer and model
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version and security patch
+    validations:
+      required: true
+  - type: dropdown
+    id: sim
+    attributes:
+      label: SIM configuration
+      options: [Single SIM, Dual SIM, eSIM, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Synthetic test results
+      description: Cover saved, unsaved, protection-off, and permission-revoked cases.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: This report contains no real phone number, contact, call log, or recording.
+          required: true

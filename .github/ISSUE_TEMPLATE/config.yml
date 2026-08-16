@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/varunbiluri/pehredar/security/advisories/new
+    about: Report vulnerabilities privately; never post sensitive details publicly.
+  - name: Questions and ideas
+    url: https://github.com/varunbiluri/pehredar/discussions
+    about: Ask for help or discuss ideas with the community.

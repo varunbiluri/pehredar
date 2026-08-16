@@ -1,7 +1,8 @@
 [project]
 name = "pehredar"
 version = "0.1.0"
-description = "On-device AI call screening for Android, starting with Indian languages"
+description = "Private on-device unknown-caller screening for Android, localized for Indian languages"
+license = "Apache-2.0"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

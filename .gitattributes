@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+*.apk binary
+*.aab binary
+*.gguf binary
+*.onnx binary
+*.wav binary
+*.safetensors binary

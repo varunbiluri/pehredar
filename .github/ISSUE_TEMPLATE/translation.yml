@@ -1,0 +1,46 @@
+name: Translation correction
+description: Improve a Pehredar locale with native-language context.
+title: "[Translation]: "
+labels: [translation, needs-review]
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language, region, and script
+      placeholder: Kashmiri, India, Perso-Arabic
+    validations:
+      required: true
+  - type: input
+    id: key
+    attributes:
+      label: Android string key
+      placeholder: silence_unknown_switch
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed text
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why this is more accurate or natural
+    validations:
+      required: true
+  - type: checkboxes
+    id: reviewer
+    attributes:
+      label: Reviewer context
+      options:
+        - label: I am a native/fluent speaker or clearly explained my source.
+          required: true
+        - label: I checked the wording in the actual app context.
+          required: true

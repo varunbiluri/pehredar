@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If Pehredar supports your work, please cite the project."
+title: Pehredar
+type: software
+authors:
+  - family-names: Biluri
+    given-names: Varun
+repository-code: "https://github.com/varunbiluri/pehredar"
+url: "https://github.com/varunbiluri/pehredar"
+license: Apache-2.0
+version: 1.0.0-beta.3
+date-released: 2026-08-16
+abstract: "Private on-device unknown-caller screening for Android, localized for Indian languages."

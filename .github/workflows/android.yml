@@ -15,8 +15,8 @@ jobs:
       run:
         working-directory: android
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-java@v5
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5
         with:
           distribution: temurin
           java-version: "17"
@@ -25,4 +25,7 @@ jobs:
       - name: Check all 22 localizations
         working-directory: .
         run: python3 scripts/check_localizations.py
+      - name: Check repository policies and links
+        working-directory: .
+        run: python3 scripts/check_repository.py
       - run: ./gradlew testDebugUnitTest lintDebug assembleDebug

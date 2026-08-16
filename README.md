@@ -1,9 +1,15 @@
 # Pehredar
 
+[![Android checks](https://github.com/varunbiluri/pehredar/actions/workflows/android.yml/badge.svg)](https://github.com/varunbiluri/pehredar/actions/workflows/android.yml)
+[![CodeQL](https://github.com/varunbiluri/pehredar/actions/workflows/codeql.yml/badge.svg)](https://github.com/varunbiluri/pehredar/actions/workflows/codeql.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/varunbiluri/pehredar/badge)](https://scorecard.dev/viewer/?uri=github.com/varunbiluri/pehredar)
+[![License](https://img.shields.io/github/license/varunbiluri/pehredar)](LICENSE)
+[![Latest release](https://img.shields.io/github/v/release/varunbiluri/pehredar?include_prereleases)](https://github.com/varunbiluri/pehredar/releases/latest)
+
 Private on-device call screening for Android. No server ever sees your calls,
 contacts, or audio -- everything runs locally on the phone.
 
-**Status: early alpha, and smaller in scope than earlier plans in this
+**Status: public beta, and smaller in scope than earlier plans in this
 repo's history.** The original goal was AI that answers and talks to
 callers on your behalf, fully on-device. That turned out not to be
 legitimately buildable -- see
@@ -15,6 +21,22 @@ text-to-speech, across five languages) exists in this repo as
 [parked research](#parked-research-on-device-voice-pipeline) -- real,
 tested code, just not wired into the shipping app, because there's
 currently no legitimate way to give it access to live call audio.
+
+## Get the beta
+
+Download the latest signed APK from [GitHub Releases](https://github.com/varunbiluri/pehredar/releases/latest).
+Android 10 or later is required. This remains beta software: read the release
+notes and test with synthetic numbers before relying on it.
+
+## Quick start for contributors
+
+```bash
+git clone https://github.com/varunbiluri/pehredar.git
+cd pehredar/android
+./gradlew testDebugUnitTest lintDebug assembleDebug
+```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a substantial pull request.
 
 ## Why no live AI conversation
 
@@ -217,6 +239,29 @@ data/         Parked: seed call-screening dialogue dataset
 finetune/     Parked: LoRA fine-tuning scripts and findings
 ```
 
+## Project documentation
+
+- [Architecture and invariants](ARCHITECTURE.md)
+- [Roadmap](ROADMAP.md)
+- [Translation process](TRANSLATIONS.md)
+- [Privacy policy](PRIVACY.md)
+- [Security policy](SECURITY.md)
+- [Changelog](CHANGELOG.md)
+- [Release process](RELEASING.md)
+- [Third-party notices](THIRD_PARTY_NOTICES.md)
+
+## Community
+
+Contributions are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md),
+follow the [code of conduct](CODE_OF_CONDUCT.md), and use
+[GitHub Discussions](https://github.com/varunbiluri/pehredar/discussions) for
+questions and design ideas. Governance is documented in [GOVERNANCE.md](GOVERNANCE.md).
+Security vulnerabilities must be reported privately as described in
+[SECURITY.md](SECURITY.md).
+
 ## License
 
-Not yet decided.
+Licensed under the [Apache License 2.0](LICENSE). Original project code,
+documentation, seed data, and committed translations are covered by this
+license. Optional third-party models and dependencies retain their own terms;
+see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
