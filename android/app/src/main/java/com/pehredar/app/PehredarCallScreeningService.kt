@@ -1,5 +1,6 @@
 package com.pehredar.app
 
+import android.Manifest
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.provider.ContactsContract
@@ -33,10 +34,9 @@ class PehredarCallScreeningService : CallScreeningService() {
         val number = callDetails.handle?.schemeSpecificPart
 
         val silenceUnknown = Settings.isSilenceUnknownNumbersEnabled(this)
-        val contactStatus = when {
-            number.isNullOrBlank() -> ContactStatus.UNAVAILABLE
-            else -> if (isKnownContact(number)) ContactStatus.KNOWN else ContactStatus.UNKNOWN
-        }
+        val hasContactsPermission = ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) ==
+            PackageManager.PERMISSION_GRANTED
+        val contactStatus = ContactClassifier.classify(number, hasContactsPermission, ::isKnownContact)
         val shouldSilence = ScreeningPolicy.shouldSilence(silenceUnknown, contactStatus)
 
         val response = CallResponse.Builder()
@@ -50,16 +50,14 @@ class PehredarCallScreeningService : CallScreeningService() {
     }
 
     private fun isKnownContact(number: String): Boolean {
-        val hasPermission = ContextCompat.checkSelfPermission(this, android.Manifest.permission.READ_CONTACTS) ==
-            PackageManager.PERMISSION_GRANTED
-        if (!hasPermission) {
-            // Can't verify -- fail open rather than silence someone who's
-            // actually a saved contact.
-            return true
-        }
         val uri = Uri.withAppendedPath(ContactsContract.PhoneLookup.CONTENT_FILTER_URI, Uri.encode(number))
-        return contentResolver.query(uri, arrayOf(ContactsContract.PhoneLookup._ID), null, null, null)?.use { cursor ->
-            cursor.moveToFirst()
-        } ?: true
+        return contentResolver.query(
+            uri,
+            arrayOf(ContactsContract.PhoneLookup._ID),
+            null,
+            null,
+            null,
+        )?.use { cursor -> cursor.moveToFirst() }
+            ?: throw IllegalStateException("Contacts provider returned no result")
     }
 }

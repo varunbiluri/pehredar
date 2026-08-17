@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.0-beta.5] - 2026-08-17
+
+### Changed
+
+- Hardened contact classification so permission races and provider failures
+  explicitly fail open.
+- Expanded policy and failure-path unit coverage.
+- Improved screen-reader semantics and small-text readability.
+- Correctly disabled setup on devices without the Android call-screening role.
+
 ## [1.0.0-beta.4] - 2026-08-16
 
 ### Added

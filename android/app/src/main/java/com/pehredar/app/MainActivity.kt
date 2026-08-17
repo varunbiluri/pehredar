@@ -82,13 +82,18 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateStatus() {
         val roleManager = roleManager()
-        val roleHeld = roleManager.isRoleAvailable(RoleManager.ROLE_CALL_SCREENING) &&
-            roleManager.isRoleHeld(RoleManager.ROLE_CALL_SCREENING)
-        statusText.text = getString(if (roleHeld) R.string.role_active else R.string.role_inactive)
+        val roleAvailable = roleManager.isRoleAvailable(RoleManager.ROLE_CALL_SCREENING)
+        val roleHeld = roleAvailable && roleManager.isRoleHeld(RoleManager.ROLE_CALL_SCREENING)
+        val roleStatus = when {
+            !roleAvailable -> R.string.role_unavailable
+            roleHeld -> R.string.role_active
+            else -> R.string.role_inactive
+        }
+        statusText.text = getString(roleStatus)
         statusText.setTextColor(
             ContextCompat.getColor(this, if (roleHeld) R.color.status_active else R.color.status_inactive)
         )
-        enableButton.isEnabled = !roleHeld
+        enableButton.isEnabled = roleAvailable && !roleHeld
         enableButton.text = getString(R.string.enable_button)
 
         val contactsGranted = hasContactsPermission()
