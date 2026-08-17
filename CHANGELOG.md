@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.0-beta.6] - 2026-08-17
+
+### Added
+
+- Offline AI Lab with typed input and explicitly on-device Android speech
+  recognition where supported.
+- Compact local intent and scam-risk analysis with safety-focused replies.
+- Offline-device TTS selection and localized AI UI across all 22 scheduled
+  Indian languages.
+- Eight AI-engine tests covering English and Hindi safety signals and common
+  caller intents.
+
 ## [1.0.0-beta.5] - 2026-08-17
 
 ### Changed

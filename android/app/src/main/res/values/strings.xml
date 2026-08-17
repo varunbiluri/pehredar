@@ -19,4 +19,32 @@
     <string name="languages_summary">Core controls are available in English and 22 Indian languages.</string>
     <string name="languages_list" translatable="false">English · असमীয়া · বাংলা · बड़ो · डोगरी · ગુજરાતી · हिंदी · ಕನ್ನಡ · کٲشُر · कोंकणी · मैथिली · മലയാളം · মৈতৈলোন্ · मराठी · नेपाली · ଓଡ଼ିଆ · ਪੰਜਾਬੀ · संस्कृतम् · ᱥᱟᱱᱛᱟᱲᱤ · سنڌي · தமிழ் · తెలుగు · اردو</string>
     <string name="languages_scope_note">This beta checks phone numbers. It does not listen to calls. It works with callers speaking any language.</string>
+    <string name="ai_lab_button">Open offline AI Lab</string>
+    <string name="ai_lab_title">Offline AI Lab</string>
+    <string name="ai_lab_subtitle">Speak or type what a caller said. Pehredar analyzes it locally and prepares a safe reply.</string>
+    <string name="ai_input_hint">What did the caller say?</string>
+    <string name="ai_listen_button">Listen on this device</string>
+    <string name="ai_analyze_button">Analyze locally</string>
+    <string name="ai_speak_button">Speak suggested reply</string>
+    <string name="ai_result_placeholder">The private analysis will appear here.</string>
+    <string name="ai_stt_unavailable">On-device speech recognition is unavailable. Type the caller’s words instead.</string>
+    <string name="ai_permission_denied">Microphone permission was not granted. You can still type text.</string>
+    <string name="ai_listening">Listening on this device…</string>
+    <string name="ai_risk_high">High risk</string>
+    <string name="ai_risk_medium">Caution</string>
+    <string name="ai_risk_low">No strong risk signal</string>
+    <string name="ai_category_scam">Possible fraud or credential request</string>
+    <string name="ai_category_delivery">Delivery</string>
+    <string name="ai_category_appointment">Appointment</string>
+    <string name="ai_category_business">Business or sales</string>
+    <string name="ai_category_personal">Personal</string>
+    <string name="ai_category_unknown">More information needed</string>
+    <string name="ai_reply_scam">I never share OTPs, PINs, or passwords. I will contact the organization through its official number.</string>
+    <string name="ai_reply_delivery">Please state your name, courier company, and whether the delivery needs action today.</string>
+    <string name="ai_reply_appointment">Please state your name, organization, appointment time, and whether anything is urgent.</string>
+    <string name="ai_reply_business">Please state your name, company, and the reason for your call.</string>
+    <string name="ai_reply_personal">Please state your name and what you would like me to pass to the owner.</string>
+    <string name="ai_reply_unknown">Please state your name and the reason for your call.</string>
+    <string name="ai_result_format">Risk: %1$s\nCategory: %2$s\n\nSuggested reply: %3$s</string>
+    <string name="ai_scope_note">Runs without network access. Voice availability depends on downloaded Android language packs. This lab cannot hear or speak inside a cellular call.</string>
 </resources>

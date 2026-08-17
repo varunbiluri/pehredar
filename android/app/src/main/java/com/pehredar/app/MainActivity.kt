@@ -3,6 +3,7 @@ package com.pehredar.app
 import android.Manifest
 import android.app.role.RoleManager
 import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.widget.CompoundButton
@@ -41,6 +42,9 @@ class MainActivity : AppCompatActivity() {
 
         enableButton = findViewById(R.id.enableButton)
         contactsButton = findViewById(R.id.contactsButton)
+        findViewById<MaterialButton>(R.id.aiLabButton).setOnClickListener {
+            startActivity(Intent(this, AiLabActivity::class.java))
+        }
 
         enableButton.setOnClickListener { requestCallScreeningRole() }
         contactsButton.setOnClickListener {

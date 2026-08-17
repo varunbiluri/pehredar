@@ -6,8 +6,9 @@
 [![License](https://img.shields.io/github/license/varunbiluri/pehredar)](LICENSE)
 [![Latest release](https://img.shields.io/github/v/release/varunbiluri/pehredar?include_prereleases)](https://github.com/varunbiluri/pehredar/releases/latest)
 
-Private on-device call screening for Android. No server ever sees your calls,
-contacts, or audio -- everything runs locally on the phone.
+Private on-device call protection and an offline AI screening lab for Android.
+No server sees your calls, contacts, microphone input, or text -- processing
+stays on the phone.
 
 **Status: public beta, and smaller in scope than earlier plans in this
 repo's history.** The original goal was AI that answers and talks to
@@ -15,7 +16,9 @@ callers on your behalf, fully on-device. That turned out not to be
 legitimately buildable -- see
 [Why no live AI conversation](#why-no-live-ai-conversation) below. What
 actually ships: calls from unknown numbers ring silently instead of
-interrupting you, calls from contacts always ring normally. A validated
+interrupting you, calls from contacts always ring normally, and an Offline AI
+Lab can transcribe microphone speech on-device, classify caller intent/risk,
+and speak a safe response outside the cellular call. A validated
 on-device voice AI pipeline (speech-to-text, an LLM, translation,
 text-to-speech, across five languages) exists in this repo as
 [parked research](#parked-research-on-device-voice-pipeline) -- real,
@@ -81,9 +84,12 @@ for each incoming call:
 - If contacts permission isn't granted, or the setting is off -> rings
   normally, unchanged. Fails open, not closed.
 
-No audio access, no AI model, no network calls anywhere in this path --
+No audio access, AI model, or network call exists in this live cellular path --
 it's number/contact-lookup logic only, which is all `CallScreeningService`
-legitimately supports.
+legitimately supports. Beta.6 also includes an **Offline AI Lab** for microphone
+or typed input outside a carrier call: Android's on-device STT feeds a compact
+local intent/risk engine and an installed offline TTS voice can speak the safe
+reply. The lab saves nothing and the app has no internet permission.
 
 ### Language support
 
@@ -139,7 +145,10 @@ run correctly. Get a real device before trusting it.
 
 ## Privacy
 
-The Android app requests only contacts access and Android's user-granted call-screening role. It has no internet permission, account, ads, analytics, call recording, or phone-number logging. See [PRIVACY.md](PRIVACY.md).
+The Android app requests contacts access, Android's user-granted call-screening
+role, and optional microphone access when the user starts the Offline AI Lab.
+It has no internet permission, account, ads, analytics, call recording, saved
+transcripts, or phone-number logging. See [PRIVACY.md](PRIVACY.md).
 
 ## Parked research: on-device voice pipeline
 
